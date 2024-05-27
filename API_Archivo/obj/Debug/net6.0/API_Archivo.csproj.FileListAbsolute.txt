@@ -1,0 +1,401 @@
+C:\Users\DELL\source\repos\API-unificada\API_Archivo\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\DELL\source\repos\API-unificada\API_Archivo\bin\Debug\net6.0\appsettings.json
+C:\Users\DELL\source\repos\API-unificada\API_Archivo\bin\Debug\net6.0\API_Archivo.exe
+C:\Users\DELL\source\repos\API-unificada\API_Archivo\bin\Debug\net6.0\API_Archivo.deps.json
+C:\Users\DELL\source\repos\API-unificada\API_Archivo\bin\Debug\net6.0\API_Archivo.runtimeconfig.json
+C:\Users\DELL\source\repos\API-unificada\API_Archivo\bin\Debug\net6.0\API_Archivo.dll
+C:\Users\DELL\source\repos\API-unificada\API_Archivo\bin\Debug\net6.0\API_Archivo.pdb
+C:\Users\DELL\source\repos\API-unificada\API_Archivo\bin\Debug\net6.0\Google.Protobuf.dll
+C:\Users\DELL\source\repos\API-unificada\API_Archivo\bin\Debug\net6.0\K4os.Compression.LZ4.dll
+C:\Users\DELL\source\repos\API-unificada\API_Archivo\bin\Debug\net6.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\DELL\source\repos\API-unificada\API_Archivo\bin\Debug\net6.0\K4os.Hash.xxHash.dll
+C:\Users\DELL\source\repos\API-unificada\API_Archivo\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\DELL\source\repos\API-unificada\API_Archivo\bin\Debug\net6.0\Microsoft.Owin.dll
+C:\Users\DELL\source\repos\API-unificada\API_Archivo\bin\Debug\net6.0\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\DELL\source\repos\API-unificada\API_Archivo\bin\Debug\net6.0\Microsoft.Owin.Security.dll
+C:\Users\DELL\source\repos\API-unificada\API_Archivo\bin\Debug\net6.0\Microsoft.Owin.Security.OAuth.dll
+C:\Users\DELL\source\repos\API-unificada\API_Archivo\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\DELL\source\repos\API-unificada\API_Archivo\bin\Debug\net6.0\MySql.Data.dll
+C:\Users\DELL\source\repos\API-unificada\API_Archivo\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\DELL\source\repos\API-unificada\API_Archivo\bin\Debug\net6.0\Owin.dll
+C:\Users\DELL\source\repos\API-unificada\API_Archivo\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+C:\Users\DELL\source\repos\API-unificada\API_Archivo\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\DELL\source\repos\API-unificada\API_Archivo\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\DELL\source\repos\API-unificada\API_Archivo\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\DELL\source\repos\API-unificada\API_Archivo\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\DELL\source\repos\API-unificada\API_Archivo\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\DELL\source\repos\API-unificada\API_Archivo\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\DELL\source\repos\API-unificada\API_Archivo\bin\Debug\net6.0\System.IO.Pipelines.dll
+C:\Users\DELL\source\repos\API-unificada\API_Archivo\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\DELL\source\repos\API-unificada\API_Archivo\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\DELL\source\repos\API-unificada\API_Archivo\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\DELL\source\repos\API-unificada\API_Archivo\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\DELL\source\repos\API-unificada\API_Archivo\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\DELL\source\repos\API-unificada\API_Archivo\bin\Debug\net6.0\ZstdSharp.dll
+C:\Users\DELL\source\repos\API-unificada\API_Archivo\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\DELL\source\repos\API-unificada\API_Archivo\bin\Debug\net6.0\runtimes\win-x64\native\comerr64.dll
+C:\Users\DELL\source\repos\API-unificada\API_Archivo\bin\Debug\net6.0\runtimes\win-x64\native\gssapi64.dll
+C:\Users\DELL\source\repos\API-unificada\API_Archivo\bin\Debug\net6.0\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\DELL\source\repos\API-unificada\API_Archivo\bin\Debug\net6.0\runtimes\win-x64\native\krb5_64.dll
+C:\Users\DELL\source\repos\API-unificada\API_Archivo\bin\Debug\net6.0\runtimes\win-x64\native\krbcc64.dll
+C:\Users\DELL\source\repos\API-unificada\API_Archivo\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\DELL\source\repos\API-unificada\API_Archivo\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\DELL\source\repos\API-unificada\API_Archivo\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\DELL\source\repos\API-unificada\API_Archivo\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\DELL\source\repos\API-unificada\API_Archivo\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\DELL\source\repos\API-unificada\API_Archivo\obj\Debug\net6.0\API_Archivo.csproj.AssemblyReference.cache
+C:\Users\DELL\source\repos\API-unificada\API_Archivo\obj\Debug\net6.0\API_Archivo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\source\repos\API-unificada\API_Archivo\obj\Debug\net6.0\API_Archivo.AssemblyInfoInputs.cache
+C:\Users\DELL\source\repos\API-unificada\API_Archivo\obj\Debug\net6.0\API_Archivo.AssemblyInfo.cs
+C:\Users\DELL\source\repos\API-unificada\API_Archivo\obj\Debug\net6.0\API_Archivo.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\API-unificada\API_Archivo\obj\Debug\net6.0\API_Archivo.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\DELL\source\repos\API-unificada\API_Archivo\obj\Debug\net6.0\API_Archivo.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\DELL\source\repos\API-unificada\API_Archivo\obj\Debug\net6.0\staticwebassets\msbuild.API_Archivo.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\DELL\source\repos\API-unificada\API_Archivo\obj\Debug\net6.0\staticwebassets\msbuild.build.API_Archivo.props
+C:\Users\DELL\source\repos\API-unificada\API_Archivo\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.API_Archivo.props
+C:\Users\DELL\source\repos\API-unificada\API_Archivo\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.API_Archivo.props
+C:\Users\DELL\source\repos\API-unificada\API_Archivo\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\DELL\source\repos\API-unificada\API_Archivo\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\DELL\source\repos\API-unificada\API_Archivo\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\DELL\source\repos\API-unificada\API_Archivo\obj\Debug\net6.0\scopedcss\bundle\API_Archivo.styles.css
+C:\Users\DELL\source\repos\API-unificada\API_Archivo\obj\Debug\net6.0\API_Archivo.csproj.CopyComplete
+C:\Users\DELL\source\repos\API-unificada\API_Archivo\obj\Debug\net6.0\API_Archivo.dll
+C:\Users\DELL\source\repos\API-unificada\API_Archivo\obj\Debug\net6.0\refint\API_Archivo.dll
+C:\Users\DELL\source\repos\API-unificada\API_Archivo\obj\Debug\net6.0\API_Archivo.pdb
+C:\Users\DELL\source\repos\API-unificada\API_Archivo\obj\Debug\net6.0\API_Archivo.genruntimeconfig.cache
+C:\Users\DELL\source\repos\API-unificada\API_Archivo\obj\Debug\net6.0\ref\API_Archivo.dll
+C:\Users\F13RR0\Desktop\ProyectoWEB-archivo\Pos'Final\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\F13RR0\Desktop\ProyectoWEB-archivo\Pos'Final\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\appsettings.json
+C:\Users\F13RR0\Desktop\ProyectoWEB-archivo\Pos'Final\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\API_Archivo.exe
+C:\Users\F13RR0\Desktop\ProyectoWEB-archivo\Pos'Final\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\API_Archivo.deps.json
+C:\Users\F13RR0\Desktop\ProyectoWEB-archivo\Pos'Final\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\API_Archivo.runtimeconfig.json
+C:\Users\F13RR0\Desktop\ProyectoWEB-archivo\Pos'Final\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\API_Archivo.dll
+C:\Users\F13RR0\Desktop\ProyectoWEB-archivo\Pos'Final\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\API_Archivo.pdb
+C:\Users\F13RR0\Desktop\ProyectoWEB-archivo\Pos'Final\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\Google.Protobuf.dll
+C:\Users\F13RR0\Desktop\ProyectoWEB-archivo\Pos'Final\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\K4os.Compression.LZ4.dll
+C:\Users\F13RR0\Desktop\ProyectoWEB-archivo\Pos'Final\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\F13RR0\Desktop\ProyectoWEB-archivo\Pos'Final\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\K4os.Hash.xxHash.dll
+C:\Users\F13RR0\Desktop\ProyectoWEB-archivo\Pos'Final\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\F13RR0\Desktop\ProyectoWEB-archivo\Pos'Final\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\Microsoft.Owin.dll
+C:\Users\F13RR0\Desktop\ProyectoWEB-archivo\Pos'Final\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\F13RR0\Desktop\ProyectoWEB-archivo\Pos'Final\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\Microsoft.Owin.Security.dll
+C:\Users\F13RR0\Desktop\ProyectoWEB-archivo\Pos'Final\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\Microsoft.Owin.Security.OAuth.dll
+C:\Users\F13RR0\Desktop\ProyectoWEB-archivo\Pos'Final\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\F13RR0\Desktop\ProyectoWEB-archivo\Pos'Final\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\MySql.Data.dll
+C:\Users\F13RR0\Desktop\ProyectoWEB-archivo\Pos'Final\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\F13RR0\Desktop\ProyectoWEB-archivo\Pos'Final\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\Owin.dll
+C:\Users\F13RR0\Desktop\ProyectoWEB-archivo\Pos'Final\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+C:\Users\F13RR0\Desktop\ProyectoWEB-archivo\Pos'Final\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\F13RR0\Desktop\ProyectoWEB-archivo\Pos'Final\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\F13RR0\Desktop\ProyectoWEB-archivo\Pos'Final\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\F13RR0\Desktop\ProyectoWEB-archivo\Pos'Final\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\F13RR0\Desktop\ProyectoWEB-archivo\Pos'Final\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\F13RR0\Desktop\ProyectoWEB-archivo\Pos'Final\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\F13RR0\Desktop\ProyectoWEB-archivo\Pos'Final\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\System.IO.Pipelines.dll
+C:\Users\F13RR0\Desktop\ProyectoWEB-archivo\Pos'Final\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\F13RR0\Desktop\ProyectoWEB-archivo\Pos'Final\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\F13RR0\Desktop\ProyectoWEB-archivo\Pos'Final\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\F13RR0\Desktop\ProyectoWEB-archivo\Pos'Final\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\F13RR0\Desktop\ProyectoWEB-archivo\Pos'Final\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\F13RR0\Desktop\ProyectoWEB-archivo\Pos'Final\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\ZstdSharp.dll
+C:\Users\F13RR0\Desktop\ProyectoWEB-archivo\Pos'Final\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\F13RR0\Desktop\ProyectoWEB-archivo\Pos'Final\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\runtimes\win-x64\native\comerr64.dll
+C:\Users\F13RR0\Desktop\ProyectoWEB-archivo\Pos'Final\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\runtimes\win-x64\native\gssapi64.dll
+C:\Users\F13RR0\Desktop\ProyectoWEB-archivo\Pos'Final\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\F13RR0\Desktop\ProyectoWEB-archivo\Pos'Final\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\runtimes\win-x64\native\krb5_64.dll
+C:\Users\F13RR0\Desktop\ProyectoWEB-archivo\Pos'Final\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\runtimes\win-x64\native\krbcc64.dll
+C:\Users\F13RR0\Desktop\ProyectoWEB-archivo\Pos'Final\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\F13RR0\Desktop\ProyectoWEB-archivo\Pos'Final\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\F13RR0\Desktop\ProyectoWEB-archivo\Pos'Final\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\F13RR0\Desktop\ProyectoWEB-archivo\Pos'Final\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\F13RR0\Desktop\ProyectoWEB-archivo\Pos'Final\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\F13RR0\Desktop\ProyectoWEB-archivo\Pos'Final\API-Final2\API-unificada\API_Archivo\obj\Debug\net6.0\API_Archivo.csproj.AssemblyReference.cache
+C:\Users\F13RR0\Desktop\ProyectoWEB-archivo\Pos'Final\API-Final2\API-unificada\API_Archivo\obj\Debug\net6.0\API_Archivo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\F13RR0\Desktop\ProyectoWEB-archivo\Pos'Final\API-Final2\API-unificada\API_Archivo\obj\Debug\net6.0\API_Archivo.AssemblyInfoInputs.cache
+C:\Users\F13RR0\Desktop\ProyectoWEB-archivo\Pos'Final\API-Final2\API-unificada\API_Archivo\obj\Debug\net6.0\API_Archivo.AssemblyInfo.cs
+C:\Users\F13RR0\Desktop\ProyectoWEB-archivo\Pos'Final\API-Final2\API-unificada\API_Archivo\obj\Debug\net6.0\API_Archivo.csproj.CoreCompileInputs.cache
+C:\Users\F13RR0\Desktop\ProyectoWEB-archivo\Pos'Final\API-Final2\API-unificada\API_Archivo\obj\Debug\net6.0\API_Archivo.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\F13RR0\Desktop\ProyectoWEB-archivo\Pos'Final\API-Final2\API-unificada\API_Archivo\obj\Debug\net6.0\API_Archivo.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\F13RR0\Desktop\ProyectoWEB-archivo\Pos'Final\API-Final2\API-unificada\API_Archivo\obj\Debug\net6.0\API_Archivo.sourcelink.json
+C:\Users\F13RR0\Desktop\ProyectoWEB-archivo\Pos'Final\API-Final2\API-unificada\API_Archivo\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\F13RR0\Desktop\ProyectoWEB-archivo\Pos'Final\API-Final2\API-unificada\API_Archivo\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\F13RR0\Desktop\ProyectoWEB-archivo\Pos'Final\API-Final2\API-unificada\API_Archivo\obj\Debug\net6.0\staticwebassets\msbuild.API_Archivo.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\F13RR0\Desktop\ProyectoWEB-archivo\Pos'Final\API-Final2\API-unificada\API_Archivo\obj\Debug\net6.0\staticwebassets\msbuild.build.API_Archivo.props
+C:\Users\F13RR0\Desktop\ProyectoWEB-archivo\Pos'Final\API-Final2\API-unificada\API_Archivo\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.API_Archivo.props
+C:\Users\F13RR0\Desktop\ProyectoWEB-archivo\Pos'Final\API-Final2\API-unificada\API_Archivo\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.API_Archivo.props
+C:\Users\F13RR0\Desktop\ProyectoWEB-archivo\Pos'Final\API-Final2\API-unificada\API_Archivo\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\F13RR0\Desktop\ProyectoWEB-archivo\Pos'Final\API-Final2\API-unificada\API_Archivo\obj\Debug\net6.0\scopedcss\bundle\API_Archivo.styles.css
+C:\Users\F13RR0\Desktop\ProyectoWEB-archivo\Pos'Final\API-Final2\API-unificada\API_Archivo\obj\Debug\net6.0\API_Archivo.csproj.CopyComplete
+C:\Users\F13RR0\Desktop\ProyectoWEB-archivo\Pos'Final\API-Final2\API-unificada\API_Archivo\obj\Debug\net6.0\API_Archivo.dll
+C:\Users\F13RR0\Desktop\ProyectoWEB-archivo\Pos'Final\API-Final2\API-unificada\API_Archivo\obj\Debug\net6.0\refint\API_Archivo.dll
+C:\Users\F13RR0\Desktop\ProyectoWEB-archivo\Pos'Final\API-Final2\API-unificada\API_Archivo\obj\Debug\net6.0\API_Archivo.pdb
+C:\Users\F13RR0\Desktop\ProyectoWEB-archivo\Pos'Final\API-Final2\API-unificada\API_Archivo\obj\Debug\net6.0\API_Archivo.genruntimeconfig.cache
+C:\Users\F13RR0\Desktop\ProyectoWEB-archivo\Pos'Final\API-Final2\API-unificada\API_Archivo\obj\Debug\net6.0\ref\API_Archivo.dll
+C:\Users\DELL\Downloads\API-Final2 (3)\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\DELL\Downloads\API-Final2 (3)\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\appsettings.json
+C:\Users\DELL\Downloads\API-Final2 (3)\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\API_Archivo.exe
+C:\Users\DELL\Downloads\API-Final2 (3)\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\API_Archivo.deps.json
+C:\Users\DELL\Downloads\API-Final2 (3)\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\API_Archivo.runtimeconfig.json
+C:\Users\DELL\Downloads\API-Final2 (3)\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\API_Archivo.dll
+C:\Users\DELL\Downloads\API-Final2 (3)\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\API_Archivo.pdb
+C:\Users\DELL\Downloads\API-Final2 (3)\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\Google.Protobuf.dll
+C:\Users\DELL\Downloads\API-Final2 (3)\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\K4os.Compression.LZ4.dll
+C:\Users\DELL\Downloads\API-Final2 (3)\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\DELL\Downloads\API-Final2 (3)\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\K4os.Hash.xxHash.dll
+C:\Users\DELL\Downloads\API-Final2 (3)\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\DELL\Downloads\API-Final2 (3)\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\Microsoft.Owin.dll
+C:\Users\DELL\Downloads\API-Final2 (3)\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\DELL\Downloads\API-Final2 (3)\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\Microsoft.Owin.Security.dll
+C:\Users\DELL\Downloads\API-Final2 (3)\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\Microsoft.Owin.Security.OAuth.dll
+C:\Users\DELL\Downloads\API-Final2 (3)\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\DELL\Downloads\API-Final2 (3)\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\MySql.Data.dll
+C:\Users\DELL\Downloads\API-Final2 (3)\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\DELL\Downloads\API-Final2 (3)\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\Owin.dll
+C:\Users\DELL\Downloads\API-Final2 (3)\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+C:\Users\DELL\Downloads\API-Final2 (3)\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\DELL\Downloads\API-Final2 (3)\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\DELL\Downloads\API-Final2 (3)\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\DELL\Downloads\API-Final2 (3)\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\DELL\Downloads\API-Final2 (3)\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\DELL\Downloads\API-Final2 (3)\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\DELL\Downloads\API-Final2 (3)\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\System.IO.Pipelines.dll
+C:\Users\DELL\Downloads\API-Final2 (3)\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\DELL\Downloads\API-Final2 (3)\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\DELL\Downloads\API-Final2 (3)\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\DELL\Downloads\API-Final2 (3)\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\DELL\Downloads\API-Final2 (3)\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\DELL\Downloads\API-Final2 (3)\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\ZstdSharp.dll
+C:\Users\DELL\Downloads\API-Final2 (3)\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\DELL\Downloads\API-Final2 (3)\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\runtimes\win-x64\native\comerr64.dll
+C:\Users\DELL\Downloads\API-Final2 (3)\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\runtimes\win-x64\native\gssapi64.dll
+C:\Users\DELL\Downloads\API-Final2 (3)\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\DELL\Downloads\API-Final2 (3)\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\runtimes\win-x64\native\krb5_64.dll
+C:\Users\DELL\Downloads\API-Final2 (3)\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\runtimes\win-x64\native\krbcc64.dll
+C:\Users\DELL\Downloads\API-Final2 (3)\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\DELL\Downloads\API-Final2 (3)\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\DELL\Downloads\API-Final2 (3)\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\DELL\Downloads\API-Final2 (3)\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\DELL\Downloads\API-Final2 (3)\API-Final2\API-unificada\API_Archivo\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\DELL\Downloads\API-Final2 (3)\API-Final2\API-unificada\API_Archivo\obj\Debug\net6.0\API_Archivo.csproj.AssemblyReference.cache
+C:\Users\DELL\Downloads\API-Final2 (3)\API-Final2\API-unificada\API_Archivo\obj\Debug\net6.0\API_Archivo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Downloads\API-Final2 (3)\API-Final2\API-unificada\API_Archivo\obj\Debug\net6.0\API_Archivo.AssemblyInfoInputs.cache
+C:\Users\DELL\Downloads\API-Final2 (3)\API-Final2\API-unificada\API_Archivo\obj\Debug\net6.0\API_Archivo.AssemblyInfo.cs
+C:\Users\DELL\Downloads\API-Final2 (3)\API-Final2\API-unificada\API_Archivo\obj\Debug\net6.0\API_Archivo.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Downloads\API-Final2 (3)\API-Final2\API-unificada\API_Archivo\obj\Debug\net6.0\API_Archivo.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\DELL\Downloads\API-Final2 (3)\API-Final2\API-unificada\API_Archivo\obj\Debug\net6.0\API_Archivo.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\DELL\Downloads\API-Final2 (3)\API-Final2\API-unificada\API_Archivo\obj\Debug\net6.0\staticwebassets\msbuild.API_Archivo.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\DELL\Downloads\API-Final2 (3)\API-Final2\API-unificada\API_Archivo\obj\Debug\net6.0\staticwebassets\msbuild.build.API_Archivo.props
+C:\Users\DELL\Downloads\API-Final2 (3)\API-Final2\API-unificada\API_Archivo\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.API_Archivo.props
+C:\Users\DELL\Downloads\API-Final2 (3)\API-Final2\API-unificada\API_Archivo\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.API_Archivo.props
+C:\Users\DELL\Downloads\API-Final2 (3)\API-Final2\API-unificada\API_Archivo\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\DELL\Downloads\API-Final2 (3)\API-Final2\API-unificada\API_Archivo\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\DELL\Downloads\API-Final2 (3)\API-Final2\API-unificada\API_Archivo\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\DELL\Downloads\API-Final2 (3)\API-Final2\API-unificada\API_Archivo\obj\Debug\net6.0\scopedcss\bundle\API_Archivo.styles.css
+C:\Users\DELL\Downloads\API-Final2 (3)\API-Final2\API-unificada\API_Archivo\obj\Debug\net6.0\API_Archivo.csproj.CopyComplete
+C:\Users\DELL\Downloads\API-Final2 (3)\API-Final2\API-unificada\API_Archivo\obj\Debug\net6.0\API_Archivo.dll
+C:\Users\DELL\Downloads\API-Final2 (3)\API-Final2\API-unificada\API_Archivo\obj\Debug\net6.0\refint\API_Archivo.dll
+C:\Users\DELL\Downloads\API-Final2 (3)\API-Final2\API-unificada\API_Archivo\obj\Debug\net6.0\API_Archivo.pdb
+C:\Users\DELL\Downloads\API-Final2 (3)\API-Final2\API-unificada\API_Archivo\obj\Debug\net6.0\API_Archivo.genruntimeconfig.cache
+C:\Users\DELL\Downloads\API-Final2 (3)\API-Final2\API-unificada\API_Archivo\obj\Debug\net6.0\ref\API_Archivo.dll
+C:\Users\urqui\Downloads\API-unificada\API-unificada\API_Archivo\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\urqui\Downloads\API-unificada\API-unificada\API_Archivo\bin\Debug\net6.0\appsettings.json
+C:\Users\urqui\Downloads\API-unificada\API-unificada\API_Archivo\bin\Debug\net6.0\API_Archivo.exe
+C:\Users\urqui\Downloads\API-unificada\API-unificada\API_Archivo\bin\Debug\net6.0\API_Archivo.deps.json
+C:\Users\urqui\Downloads\API-unificada\API-unificada\API_Archivo\bin\Debug\net6.0\API_Archivo.runtimeconfig.json
+C:\Users\urqui\Downloads\API-unificada\API-unificada\API_Archivo\bin\Debug\net6.0\API_Archivo.dll
+C:\Users\urqui\Downloads\API-unificada\API-unificada\API_Archivo\bin\Debug\net6.0\API_Archivo.pdb
+C:\Users\urqui\Downloads\API-unificada\API-unificada\API_Archivo\bin\Debug\net6.0\Google.Protobuf.dll
+C:\Users\urqui\Downloads\API-unificada\API-unificada\API_Archivo\bin\Debug\net6.0\K4os.Compression.LZ4.dll
+C:\Users\urqui\Downloads\API-unificada\API-unificada\API_Archivo\bin\Debug\net6.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\urqui\Downloads\API-unificada\API-unificada\API_Archivo\bin\Debug\net6.0\K4os.Hash.xxHash.dll
+C:\Users\urqui\Downloads\API-unificada\API-unificada\API_Archivo\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\urqui\Downloads\API-unificada\API-unificada\API_Archivo\bin\Debug\net6.0\Microsoft.Owin.dll
+C:\Users\urqui\Downloads\API-unificada\API-unificada\API_Archivo\bin\Debug\net6.0\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\urqui\Downloads\API-unificada\API-unificada\API_Archivo\bin\Debug\net6.0\Microsoft.Owin.Security.dll
+C:\Users\urqui\Downloads\API-unificada\API-unificada\API_Archivo\bin\Debug\net6.0\Microsoft.Owin.Security.OAuth.dll
+C:\Users\urqui\Downloads\API-unificada\API-unificada\API_Archivo\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\urqui\Downloads\API-unificada\API-unificada\API_Archivo\bin\Debug\net6.0\MySql.Data.dll
+C:\Users\urqui\Downloads\API-unificada\API-unificada\API_Archivo\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\urqui\Downloads\API-unificada\API-unificada\API_Archivo\bin\Debug\net6.0\Owin.dll
+C:\Users\urqui\Downloads\API-unificada\API-unificada\API_Archivo\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+C:\Users\urqui\Downloads\API-unificada\API-unificada\API_Archivo\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\urqui\Downloads\API-unificada\API-unificada\API_Archivo\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\urqui\Downloads\API-unificada\API-unificada\API_Archivo\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\urqui\Downloads\API-unificada\API-unificada\API_Archivo\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\urqui\Downloads\API-unificada\API-unificada\API_Archivo\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\urqui\Downloads\API-unificada\API-unificada\API_Archivo\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\urqui\Downloads\API-unificada\API-unificada\API_Archivo\bin\Debug\net6.0\System.IO.Pipelines.dll
+C:\Users\urqui\Downloads\API-unificada\API-unificada\API_Archivo\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\urqui\Downloads\API-unificada\API-unificada\API_Archivo\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\urqui\Downloads\API-unificada\API-unificada\API_Archivo\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\urqui\Downloads\API-unificada\API-unificada\API_Archivo\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\urqui\Downloads\API-unificada\API-unificada\API_Archivo\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\urqui\Downloads\API-unificada\API-unificada\API_Archivo\bin\Debug\net6.0\ZstdSharp.dll
+C:\Users\urqui\Downloads\API-unificada\API-unificada\API_Archivo\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\urqui\Downloads\API-unificada\API-unificada\API_Archivo\bin\Debug\net6.0\runtimes\win-x64\native\comerr64.dll
+C:\Users\urqui\Downloads\API-unificada\API-unificada\API_Archivo\bin\Debug\net6.0\runtimes\win-x64\native\gssapi64.dll
+C:\Users\urqui\Downloads\API-unificada\API-unificada\API_Archivo\bin\Debug\net6.0\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\urqui\Downloads\API-unificada\API-unificada\API_Archivo\bin\Debug\net6.0\runtimes\win-x64\native\krb5_64.dll
+C:\Users\urqui\Downloads\API-unificada\API-unificada\API_Archivo\bin\Debug\net6.0\runtimes\win-x64\native\krbcc64.dll
+C:\Users\urqui\Downloads\API-unificada\API-unificada\API_Archivo\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\urqui\Downloads\API-unificada\API-unificada\API_Archivo\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\urqui\Downloads\API-unificada\API-unificada\API_Archivo\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\urqui\Downloads\API-unificada\API-unificada\API_Archivo\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\urqui\Downloads\API-unificada\API-unificada\API_Archivo\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\urqui\Downloads\API-unificada\API-unificada\API_Archivo\obj\Debug\net6.0\API_Archivo.csproj.AssemblyReference.cache
+C:\Users\urqui\Downloads\API-unificada\API-unificada\API_Archivo\obj\Debug\net6.0\API_Archivo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\urqui\Downloads\API-unificada\API-unificada\API_Archivo\obj\Debug\net6.0\API_Archivo.AssemblyInfoInputs.cache
+C:\Users\urqui\Downloads\API-unificada\API-unificada\API_Archivo\obj\Debug\net6.0\API_Archivo.AssemblyInfo.cs
+C:\Users\urqui\Downloads\API-unificada\API-unificada\API_Archivo\obj\Debug\net6.0\API_Archivo.csproj.CoreCompileInputs.cache
+C:\Users\urqui\Downloads\API-unificada\API-unificada\API_Archivo\obj\Debug\net6.0\API_Archivo.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\urqui\Downloads\API-unificada\API-unificada\API_Archivo\obj\Debug\net6.0\API_Archivo.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\urqui\Downloads\API-unificada\API-unificada\API_Archivo\obj\Debug\net6.0\API_Archivo.sourcelink.json
+C:\Users\urqui\Downloads\API-unificada\API-unificada\API_Archivo\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\urqui\Downloads\API-unificada\API-unificada\API_Archivo\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\urqui\Downloads\API-unificada\API-unificada\API_Archivo\obj\Debug\net6.0\staticwebassets\msbuild.API_Archivo.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\urqui\Downloads\API-unificada\API-unificada\API_Archivo\obj\Debug\net6.0\staticwebassets\msbuild.build.API_Archivo.props
+C:\Users\urqui\Downloads\API-unificada\API-unificada\API_Archivo\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.API_Archivo.props
+C:\Users\urqui\Downloads\API-unificada\API-unificada\API_Archivo\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.API_Archivo.props
+C:\Users\urqui\Downloads\API-unificada\API-unificada\API_Archivo\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\urqui\Downloads\API-unificada\API-unificada\API_Archivo\obj\Debug\net6.0\scopedcss\bundle\API_Archivo.styles.css
+C:\Users\urqui\Downloads\API-unificada\API-unificada\API_Archivo\obj\Debug\net6.0\API_Arch.EF41A093.Up2Date
+C:\Users\urqui\Downloads\API-unificada\API-unificada\API_Archivo\obj\Debug\net6.0\API_Archivo.dll
+C:\Users\urqui\Downloads\API-unificada\API-unificada\API_Archivo\obj\Debug\net6.0\refint\API_Archivo.dll
+C:\Users\urqui\Downloads\API-unificada\API-unificada\API_Archivo\obj\Debug\net6.0\API_Archivo.pdb
+C:\Users\urqui\Downloads\API-unificada\API-unificada\API_Archivo\obj\Debug\net6.0\API_Archivo.genruntimeconfig.cache
+C:\Users\urqui\Downloads\API-unificada\API-unificada\API_Archivo\obj\Debug\net6.0\ref\API_Archivo.dll
+C:\Users\urqui\Downloads\API-unificada\API-unificada\API_Archivo\bin\Debug\net6.0\AppO.dll
+C:\Users\otro\API_Archivo\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\otro\API_Archivo\bin\Debug\net6.0\appsettings.json
+C:\Users\otro\API_Archivo\bin\Debug\net6.0\API_Archivo.exe
+C:\Users\otro\API_Archivo\bin\Debug\net6.0\API_Archivo.deps.json
+C:\Users\otro\API_Archivo\bin\Debug\net6.0\API_Archivo.runtimeconfig.json
+C:\Users\otro\API_Archivo\bin\Debug\net6.0\API_Archivo.dll
+C:\Users\otro\API_Archivo\bin\Debug\net6.0\API_Archivo.pdb
+C:\Users\otro\API_Archivo\bin\Debug\net6.0\AppO.dll
+C:\Users\otro\API_Archivo\bin\Debug\net6.0\Google.Protobuf.dll
+C:\Users\otro\API_Archivo\bin\Debug\net6.0\K4os.Compression.LZ4.dll
+C:\Users\otro\API_Archivo\bin\Debug\net6.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\otro\API_Archivo\bin\Debug\net6.0\K4os.Hash.xxHash.dll
+C:\Users\otro\API_Archivo\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\otro\API_Archivo\bin\Debug\net6.0\Microsoft.Owin.dll
+C:\Users\otro\API_Archivo\bin\Debug\net6.0\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\otro\API_Archivo\bin\Debug\net6.0\Microsoft.Owin.Security.dll
+C:\Users\otro\API_Archivo\bin\Debug\net6.0\Microsoft.Owin.Security.OAuth.dll
+C:\Users\otro\API_Archivo\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\otro\API_Archivo\bin\Debug\net6.0\MySql.Data.dll
+C:\Users\otro\API_Archivo\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\otro\API_Archivo\bin\Debug\net6.0\Owin.dll
+C:\Users\otro\API_Archivo\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+C:\Users\otro\API_Archivo\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\otro\API_Archivo\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\otro\API_Archivo\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\otro\API_Archivo\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\otro\API_Archivo\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\otro\API_Archivo\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\otro\API_Archivo\bin\Debug\net6.0\System.IO.Pipelines.dll
+C:\Users\otro\API_Archivo\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\otro\API_Archivo\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\otro\API_Archivo\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\otro\API_Archivo\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\otro\API_Archivo\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\otro\API_Archivo\bin\Debug\net6.0\ZstdSharp.dll
+C:\Users\otro\API_Archivo\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\otro\API_Archivo\bin\Debug\net6.0\runtimes\win-x64\native\comerr64.dll
+C:\Users\otro\API_Archivo\bin\Debug\net6.0\runtimes\win-x64\native\gssapi64.dll
+C:\Users\otro\API_Archivo\bin\Debug\net6.0\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\otro\API_Archivo\bin\Debug\net6.0\runtimes\win-x64\native\krb5_64.dll
+C:\Users\otro\API_Archivo\bin\Debug\net6.0\runtimes\win-x64\native\krbcc64.dll
+C:\Users\otro\API_Archivo\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\otro\API_Archivo\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\otro\API_Archivo\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\otro\API_Archivo\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\otro\API_Archivo\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\otro\API_Archivo\obj\Debug\net6.0\API_Archivo.csproj.AssemblyReference.cache
+C:\Users\otro\API_Archivo\obj\Debug\net6.0\API_Archivo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\otro\API_Archivo\obj\Debug\net6.0\API_Archivo.AssemblyInfoInputs.cache
+C:\Users\otro\API_Archivo\obj\Debug\net6.0\API_Archivo.AssemblyInfo.cs
+C:\Users\otro\API_Archivo\obj\Debug\net6.0\API_Archivo.csproj.CoreCompileInputs.cache
+C:\Users\otro\API_Archivo\obj\Debug\net6.0\API_Archivo.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\otro\API_Archivo\obj\Debug\net6.0\API_Archivo.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\otro\API_Archivo\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\otro\API_Archivo\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\otro\API_Archivo\obj\Debug\net6.0\staticwebassets\msbuild.API_Archivo.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\otro\API_Archivo\obj\Debug\net6.0\staticwebassets\msbuild.build.API_Archivo.props
+C:\Users\otro\API_Archivo\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.API_Archivo.props
+C:\Users\otro\API_Archivo\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.API_Archivo.props
+C:\Users\otro\API_Archivo\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\otro\API_Archivo\obj\Debug\net6.0\scopedcss\bundle\API_Archivo.styles.css
+C:\Users\otro\API_Archivo\obj\Debug\net6.0\API_Arch.EF41A093.Up2Date
+C:\Users\otro\API_Archivo\obj\Debug\net6.0\API_Archivo.dll
+C:\Users\otro\API_Archivo\obj\Debug\net6.0\refint\API_Archivo.dll
+C:\Users\otro\API_Archivo\obj\Debug\net6.0\API_Archivo.pdb
+C:\Users\otro\API_Archivo\obj\Debug\net6.0\API_Archivo.genruntimeconfig.cache
+C:\Users\otro\API_Archivo\obj\Debug\net6.0\ref\API_Archivo.dll
+C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\bin\Debug\net6.0\appsettings.Development.json
+C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\bin\Debug\net6.0\appsettings.json
+C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\bin\Debug\net6.0\API_Archivo.exe
+C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\bin\Debug\net6.0\API_Archivo.deps.json
+C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\bin\Debug\net6.0\API_Archivo.runtimeconfig.json
+C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\bin\Debug\net6.0\API_Archivo.dll
+C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\bin\Debug\net6.0\API_Archivo.pdb
+C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\bin\Debug\net6.0\AppO.dll
+C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\bin\Debug\net6.0\Google.Protobuf.dll
+C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\bin\Debug\net6.0\K4os.Compression.LZ4.dll
+C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\bin\Debug\net6.0\K4os.Compression.LZ4.Streams.dll
+C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\bin\Debug\net6.0\K4os.Hash.xxHash.dll
+C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\bin\Debug\net6.0\Microsoft.Owin.dll
+C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\bin\Debug\net6.0\Microsoft.Owin.Host.SystemWeb.dll
+C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\bin\Debug\net6.0\Microsoft.Owin.Security.dll
+C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\bin\Debug\net6.0\Microsoft.Owin.Security.OAuth.dll
+C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\bin\Debug\net6.0\MySql.Data.dll
+C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\bin\Debug\net6.0\Owin.dll
+C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\bin\Debug\net6.0\System.IO.Pipelines.dll
+C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\bin\Debug\net6.0\System.Text.Json.dll
+C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\bin\Debug\net6.0\ZstdSharp.dll
+C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\bin\Debug\net6.0\runtimes\win-x64\native\comerr64.dll
+C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\bin\Debug\net6.0\runtimes\win-x64\native\gssapi64.dll
+C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\bin\Debug\net6.0\runtimes\win-x64\native\k5sprt64.dll
+C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\bin\Debug\net6.0\runtimes\win-x64\native\krb5_64.dll
+C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\bin\Debug\net6.0\runtimes\win-x64\native\krbcc64.dll
+C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\obj\Debug\net6.0\API_Archivo.csproj.AssemblyReference.cache
+C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\obj\Debug\net6.0\API_Archivo.GeneratedMSBuildEditorConfig.editorconfig
+C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\obj\Debug\net6.0\API_Archivo.AssemblyInfoInputs.cache
+C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\obj\Debug\net6.0\API_Archivo.AssemblyInfo.cs
+C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\obj\Debug\net6.0\API_Archivo.csproj.CoreCompileInputs.cache
+C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\obj\Debug\net6.0\API_Archivo.MvcApplicationPartsAssemblyInfo.cs
+C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\obj\Debug\net6.0\API_Archivo.MvcApplicationPartsAssemblyInfo.cache
+C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\obj\Debug\net6.0\staticwebassets.build.json
+C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\obj\Debug\net6.0\staticwebassets.development.json
+C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\obj\Debug\net6.0\staticwebassets\msbuild.API_Archivo.Microsoft.AspNetCore.StaticWebAssets.props
+C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\obj\Debug\net6.0\staticwebassets\msbuild.build.API_Archivo.props
+C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.API_Archivo.props
+C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.API_Archivo.props
+C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\obj\Debug\net6.0\staticwebassets.pack.json
+C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\obj\Debug\net6.0\scopedcss\bundle\API_Archivo.styles.css
+C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\obj\Debug\net6.0\API_Arch.EF41A093.Up2Date
+C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\obj\Debug\net6.0\API_Archivo.dll
+C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\obj\Debug\net6.0\refint\API_Archivo.dll
+C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\obj\Debug\net6.0\API_Archivo.pdb
+C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\obj\Debug\net6.0\API_Archivo.genruntimeconfig.cache
+C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\obj\Debug\net6.0\ref\API_Archivo.dll
