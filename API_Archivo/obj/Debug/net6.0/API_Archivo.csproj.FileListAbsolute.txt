@@ -399,3 +399,4 @@ C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\obj\Debug\net6.0\refint
 C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\obj\Debug\net6.0\API_Archivo.pdb
 C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\obj\Debug\net6.0\API_Archivo.genruntimeconfig.cache
 C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\obj\Debug\net6.0\ref\API_Archivo.dll
+C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\obj\Debug\net6.0\API_Archivo.sourcelink.json

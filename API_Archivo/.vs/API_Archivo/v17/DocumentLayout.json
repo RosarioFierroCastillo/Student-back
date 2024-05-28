@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\AngularSrDeveloper\\Back-Tesis\\API_Archivo\\API_Archivo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A3424C74-179B-4B4F-84D2-F504FD5606CF}|API_Archivo.csproj|c:\\angularsrdeveloper\\back-tesis\\api_archivo\\api_archivo\\controllers\\acuerdoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3424C74-179B-4B4F-84D2-F504FD5606CF}|API_Archivo.csproj|solutionrelative:controllers\\acuerdoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A3424C74-179B-4B4F-84D2-F504FD5606CF}|API_Archivo.csproj|c:\\angularsrdeveloper\\back-tesis\\api_archivo\\api_archivo\\clases\\global.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A3424C74-179B-4B4F-84D2-F504FD5606CF}|API_Archivo.csproj|solutionrelative:clases\\global.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3424C74-179B-4B4F-84D2-F504FD5606CF}|API_Archivo.csproj|c:\\angularsrdeveloper\\back-tesis\\api_archivo\\api_archivo\\controllers\\graficoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3424C74-179B-4B4F-84D2-F504FD5606CF}|API_Archivo.csproj|solutionrelative:controllers\\graficoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3424C74-179B-4B4F-84D2-F504FD5606CF}|API_Archivo.csproj|c:\\angularsrdeveloper\\back-tesis\\api_archivo\\api_archivo\\hikvision\\adddevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3424C74-179B-4B4F-84D2-F504FD5606CF}|API_Archivo.csproj|solutionrelative:hikvision\\adddevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3424C74-179B-4B4F-84D2-F504FD5606CF}|API_Archivo.csproj|c:\\angularsrdeveloper\\back-tesis\\api_archivo\\api_archivo\\controllers\\usuario_lotecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3424C74-179B-4B4F-84D2-F504FD5606CF}|API_Archivo.csproj|solutionrelative:controllers\\usuario_lotecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3424C74-179B-4B4F-84D2-F504FD5606CF}|API_Archivo.csproj|c:\\angularsrdeveloper\\back-tesis\\api_archivo\\api_archivo\\controllers\\acuerdoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3424C74-179B-4B4F-84D2-F504FD5606CF}|API_Archivo.csproj|solutionrelative:controllers\\acuerdoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A3424C74-179B-4B4F-84D2-F504FD5606CF}|API_Archivo.csproj|c:\\angularsrdeveloper\\back-tesis\\api_archivo\\api_archivo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,20 +62,58 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "GraficosController.cs",
+              "DocumentMoniker": "C:\\AngularSrDeveloper\\Back-Tesis\\API_Archivo\\API_Archivo\\Controllers\\GraficosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\GraficosController.cs",
+              "ToolTip": "C:\\AngularSrDeveloper\\Back-Tesis\\API_Archivo\\API_Archivo\\Controllers\\GraficosController.cs",
+              "RelativeToolTip": "Controllers\\GraficosController.cs",
+              "ViewState": "AQIAAG8AAAAAAAAAAAAYwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T22:01:44.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Usuario_loteController.cs",
+              "DocumentMoniker": "C:\\AngularSrDeveloper\\Back-Tesis\\API_Archivo\\API_Archivo\\Controllers\\Usuario_loteController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Usuario_loteController.cs",
+              "ToolTip": "C:\\AngularSrDeveloper\\Back-Tesis\\API_Archivo\\API_Archivo\\Controllers\\Usuario_loteController.cs",
+              "RelativeToolTip": "Controllers\\Usuario_loteController.cs",
+              "ViewState": "AQIAABcBAAAAAAAAAAAmwCoBAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T05:53:03.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddDevice.cs",
+              "DocumentMoniker": "C:\\AngularSrDeveloper\\Back-Tesis\\API_Archivo\\API_Archivo\\Hikvision\\AddDevice.cs",
+              "RelativeDocumentMoniker": "Hikvision\\AddDevice.cs",
+              "ToolTip": "C:\\AngularSrDeveloper\\Back-Tesis\\API_Archivo\\API_Archivo\\Hikvision\\AddDevice.cs",
+              "RelativeToolTip": "Hikvision\\AddDevice.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T05:50:12.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "AcuerdosController.cs",
               "DocumentMoniker": "C:\\AngularSrDeveloper\\Back-Tesis\\API_Archivo\\API_Archivo\\Controllers\\AcuerdosController.cs",
               "RelativeDocumentMoniker": "Controllers\\AcuerdosController.cs",
               "ToolTip": "C:\\AngularSrDeveloper\\Back-Tesis\\API_Archivo\\API_Archivo\\Controllers\\AcuerdosController.cs",
               "RelativeToolTip": "Controllers\\AcuerdosController.cs",
-              "ViewState": "AQIAAPAAAAAAAAAAAAAiwEABAAAIAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEABAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-25T03:53:49.854Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "DeudasController.cs",
               "DocumentMoniker": "C:\\AngularSrDeveloper\\Back-Tesis\\API_Archivo\\API_Archivo\\Controllers\\DeudasController.cs",
               "RelativeDocumentMoniker": "Controllers\\DeudasController.cs",
@@ -76,7 +126,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "WhatsappController.cs",
               "DocumentMoniker": "C:\\AngularSrDeveloper\\Back-Tesis\\API_Archivo\\API_Archivo\\Controllers\\WhatsappController.cs",
               "RelativeDocumentMoniker": "Controllers\\WhatsappController.cs",
@@ -88,7 +138,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "UsuariosController.cs",
               "DocumentMoniker": "C:\\AngularSrDeveloper\\Back-Tesis\\API_Archivo\\API_Archivo\\Controllers\\UsuariosController.cs",
               "RelativeDocumentMoniker": "Controllers\\UsuariosController.cs",
@@ -100,7 +150,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Global.cs",
               "DocumentMoniker": "C:\\AngularSrDeveloper\\Back-Tesis\\API_Archivo\\API_Archivo\\Clases\\Global.cs",
               "RelativeDocumentMoniker": "Clases\\Global.cs",
@@ -113,7 +163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\AngularSrDeveloper\\Back-Tesis\\API_Archivo\\API_Archivo\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -121,8 +171,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAGEAAAAAAAAAAAAAAHMAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T18:47:14.407Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-20T18:47:14.407Z"
             }
           ]
         }
