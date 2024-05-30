@@ -12,7 +12,12 @@
     <PackageReference Include="Microsoft.Owin.Host.SystemWeb" Version="4.2.2" />
     <PackageReference Include="Microsoft.Owin.Security.OAuth" Version="4.2.2" />
     <PackageReference Include="MySql.Data" Version="8.1.0" />
+    <PackageReference Include="PDFsharp" Version="6.1.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Reportes\" />
   </ItemGroup>
 
 </Project>

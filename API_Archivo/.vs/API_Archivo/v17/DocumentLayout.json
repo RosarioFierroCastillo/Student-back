@@ -3,40 +3,24 @@
   "WorkspaceRootPath": "C:\\AngularSrDeveloper\\Back-Tesis\\API_Archivo\\API_Archivo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A3424C74-179B-4B4F-84D2-F504FD5606CF}|API_Archivo.csproj|c:\\angularsrdeveloper\\back-tesis\\api_archivo\\api_archivo\\clases\\global.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3424C74-179B-4B4F-84D2-F504FD5606CF}|API_Archivo.csproj|solutionrelative:clases\\global.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A3424C74-179B-4B4F-84D2-F504FD5606CF}|API_Archivo.csproj|c:\\angularsrdeveloper\\back-tesis\\api_archivo\\api_archivo\\controllers\\graficoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3424C74-179B-4B4F-84D2-F504FD5606CF}|API_Archivo.csproj|solutionrelative:controllers\\graficoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A3424C74-179B-4B4F-84D2-F504FD5606CF}|API_Archivo.csproj|c:\\angularsrdeveloper\\back-tesis\\api_archivo\\api_archivo\\hikvision\\adddevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3424C74-179B-4B4F-84D2-F504FD5606CF}|API_Archivo.csproj|solutionrelative:hikvision\\adddevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A3424C74-179B-4B4F-84D2-F504FD5606CF}|API_Archivo.csproj|c:\\angularsrdeveloper\\back-tesis\\api_archivo\\api_archivo\\controllers\\usuario_lotecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3424C74-179B-4B4F-84D2-F504FD5606CF}|API_Archivo.csproj|solutionrelative:controllers\\usuario_lotecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A3424C74-179B-4B4F-84D2-F504FD5606CF}|API_Archivo.csproj|c:\\angularsrdeveloper\\back-tesis\\api_archivo\\api_archivo\\controllers\\acuerdoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3424C74-179B-4B4F-84D2-F504FD5606CF}|API_Archivo.csproj|solutionrelative:controllers\\acuerdoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A3424C74-179B-4B4F-84D2-F504FD5606CF}|API_Archivo.csproj|c:\\angularsrdeveloper\\back-tesis\\api_archivo\\api_archivo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3424C74-179B-4B4F-84D2-F504FD5606CF}|API_Archivo.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A3424C74-179B-4B4F-84D2-F504FD5606CF}|API_Archivo.csproj|c:\\angularsrdeveloper\\back-tesis\\api_archivo\\api_archivo\\controllers\\whatsappcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3424C74-179B-4B4F-84D2-F504FD5606CF}|API_Archivo.csproj|solutionrelative:controllers\\whatsappcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A3424C74-179B-4B4F-84D2-F504FD5606CF}|API_Archivo.csproj|c:\\angularsrdeveloper\\back-tesis\\api_archivo\\api_archivo\\controllers\\reportescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3424C74-179B-4B4F-84D2-F504FD5606CF}|API_Archivo.csproj|solutionrelative:controllers\\reportescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A3424C74-179B-4B4F-84D2-F504FD5606CF}|API_Archivo.csproj|c:\\angularsrdeveloper\\back-tesis\\api_archivo\\api_archivo\\controllers\\deudascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A3424C74-179B-4B4F-84D2-F504FD5606CF}|API_Archivo.csproj|solutionrelative:controllers\\deudascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A3424C74-179B-4B4F-84D2-F504FD5606CF}|API_Archivo.csproj|c:\\angularsrdeveloper\\back-tesis\\api_archivo\\api_archivo\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3424C74-179B-4B4F-84D2-F504FD5606CF}|API_Archivo.csproj|solutionrelative:controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A3424C74-179B-4B4F-84D2-F504FD5606CF}|API_Archivo.csproj|c:\\angularsrdeveloper\\back-tesis\\api_archivo\\api_archivo\\clases\\entradas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3424C74-179B-4B4F-84D2-F504FD5606CF}|API_Archivo.csproj|solutionrelative:clases\\entradas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3424C74-179B-4B4F-84D2-F504FD5606CF}|API_Archivo.csproj|c:\\angularsrdeveloper\\back-tesis\\api_archivo\\api_archivo\\controllers\\acuerdoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3424C74-179B-4B4F-84D2-F504FD5606CF}|API_Archivo.csproj|solutionrelative:controllers\\acuerdoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3424C74-179B-4B4F-84D2-F504FD5606CF}|API_Archivo.csproj|c:\\angularsrdeveloper\\back-tesis\\api_archivo\\api_archivo\\clases\\deudas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3424C74-179B-4B4F-84D2-F504FD5606CF}|API_Archivo.csproj|solutionrelative:clases\\deudas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -63,115 +47,67 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "GraficosController.cs",
-              "DocumentMoniker": "C:\\AngularSrDeveloper\\Back-Tesis\\API_Archivo\\API_Archivo\\Controllers\\GraficosController.cs",
-              "RelativeDocumentMoniker": "Controllers\\GraficosController.cs",
-              "ToolTip": "C:\\AngularSrDeveloper\\Back-Tesis\\API_Archivo\\API_Archivo\\Controllers\\GraficosController.cs",
-              "RelativeToolTip": "Controllers\\GraficosController.cs",
-              "ViewState": "AQIAAG8AAAAAAAAAAAAYwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T22:01:44.145Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Usuario_loteController.cs",
-              "DocumentMoniker": "C:\\AngularSrDeveloper\\Back-Tesis\\API_Archivo\\API_Archivo\\Controllers\\Usuario_loteController.cs",
-              "RelativeDocumentMoniker": "Controllers\\Usuario_loteController.cs",
-              "ToolTip": "C:\\AngularSrDeveloper\\Back-Tesis\\API_Archivo\\API_Archivo\\Controllers\\Usuario_loteController.cs",
-              "RelativeToolTip": "Controllers\\Usuario_loteController.cs",
-              "ViewState": "AQIAABcBAAAAAAAAAAAmwCoBAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T05:53:03.69Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AddDevice.cs",
-              "DocumentMoniker": "C:\\AngularSrDeveloper\\Back-Tesis\\API_Archivo\\API_Archivo\\Hikvision\\AddDevice.cs",
-              "RelativeDocumentMoniker": "Hikvision\\AddDevice.cs",
-              "ToolTip": "C:\\AngularSrDeveloper\\Back-Tesis\\API_Archivo\\API_Archivo\\Hikvision\\AddDevice.cs",
-              "RelativeToolTip": "Hikvision\\AddDevice.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T05:50:12.223Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AcuerdosController.cs",
-              "DocumentMoniker": "C:\\AngularSrDeveloper\\Back-Tesis\\API_Archivo\\API_Archivo\\Controllers\\AcuerdosController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AcuerdosController.cs",
-              "ToolTip": "C:\\AngularSrDeveloper\\Back-Tesis\\API_Archivo\\API_Archivo\\Controllers\\AcuerdosController.cs",
-              "RelativeToolTip": "Controllers\\AcuerdosController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEABAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-25T03:53:49.854Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "DeudasController.cs",
               "DocumentMoniker": "C:\\AngularSrDeveloper\\Back-Tesis\\API_Archivo\\API_Archivo\\Controllers\\DeudasController.cs",
               "RelativeDocumentMoniker": "Controllers\\DeudasController.cs",
               "ToolTip": "C:\\AngularSrDeveloper\\Back-Tesis\\API_Archivo\\API_Archivo\\Controllers\\DeudasController.cs",
               "RelativeToolTip": "Controllers\\DeudasController.cs",
-              "ViewState": "AQIAAPcAAAAAAAAAAAAuwKUBAAAIAAAA",
+              "ViewState": "AQIAAAICAAAAAAAAAAAIwOwBAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T00:25:44.473Z",
+              "WhenOpened": "2024-05-30T04:07:44.843Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "WhatsappController.cs",
-              "DocumentMoniker": "C:\\AngularSrDeveloper\\Back-Tesis\\API_Archivo\\API_Archivo\\Controllers\\WhatsappController.cs",
-              "RelativeDocumentMoniker": "Controllers\\WhatsappController.cs",
-              "ToolTip": "C:\\AngularSrDeveloper\\Back-Tesis\\API_Archivo\\API_Archivo\\Controllers\\WhatsappController.cs",
-              "RelativeToolTip": "Controllers\\WhatsappController.cs",
-              "ViewState": "AQIAAHcAAAAAAAAAAAAuwIsAAAAIAAAA",
+              "DocumentIndex": 2,
+              "Title": "Entradas.cs",
+              "DocumentMoniker": "C:\\AngularSrDeveloper\\Back-Tesis\\API_Archivo\\API_Archivo\\Clases\\Entradas.cs",
+              "RelativeDocumentMoniker": "Clases\\Entradas.cs",
+              "ToolTip": "C:\\AngularSrDeveloper\\Back-Tesis\\API_Archivo\\API_Archivo\\Clases\\Entradas.cs",
+              "RelativeToolTip": "Clases\\Entradas.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAGgAAABPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T22:58:33.331Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UsuariosController.cs",
-              "DocumentMoniker": "C:\\AngularSrDeveloper\\Back-Tesis\\API_Archivo\\API_Archivo\\Controllers\\UsuariosController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UsuariosController.cs",
-              "ToolTip": "C:\\AngularSrDeveloper\\Back-Tesis\\API_Archivo\\API_Archivo\\Controllers\\UsuariosController.cs",
-              "RelativeToolTip": "Controllers\\UsuariosController.cs",
-              "ViewState": "AQIAAPcBAAAAAAAAAAAYwB4BAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T22:16:22.736Z"
+              "WhenOpened": "2024-05-30T04:29:47.354Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Global.cs",
-              "DocumentMoniker": "C:\\AngularSrDeveloper\\Back-Tesis\\API_Archivo\\API_Archivo\\Clases\\Global.cs",
-              "RelativeDocumentMoniker": "Clases\\Global.cs",
-              "ToolTip": "C:\\AngularSrDeveloper\\Back-Tesis\\API_Archivo\\API_Archivo\\Clases\\Global.cs",
-              "RelativeToolTip": "Clases\\Global.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAABaAAAA",
+              "Title": "ReportesController.cs",
+              "DocumentMoniker": "C:\\AngularSrDeveloper\\Back-Tesis\\API_Archivo\\API_Archivo\\Controllers\\ReportesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ReportesController.cs",
+              "ToolTip": "C:\\AngularSrDeveloper\\Back-Tesis\\API_Archivo\\API_Archivo\\Controllers\\ReportesController.cs",
+              "RelativeToolTip": "Controllers\\ReportesController.cs",
+              "ViewState": "AQIAAIEBAAAAAAAAAAAkwJ4BAABqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T17:43:44.468Z",
+              "WhenOpened": "2024-05-30T04:26:01.356Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\AngularSrDeveloper\\Back-Tesis\\API_Archivo\\API_Archivo\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\AngularSrDeveloper\\Back-Tesis\\API_Archivo\\API_Archivo\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAGEAAAAAAAAAAAAAAHMAAAACAAAA",
+              "DocumentIndex": 4,
+              "Title": "Deudas.cs",
+              "DocumentMoniker": "C:\\AngularSrDeveloper\\Back-Tesis\\API_Archivo\\API_Archivo\\Clases\\Deudas.cs",
+              "RelativeDocumentMoniker": "Clases\\Deudas.cs",
+              "ToolTip": "C:\\AngularSrDeveloper\\Back-Tesis\\API_Archivo\\API_Archivo\\Clases\\Deudas.cs",
+              "RelativeToolTip": "Clases\\Deudas.cs",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAmwE8AAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T18:47:14.407Z"
+              "WhenOpened": "2024-05-30T04:15:21.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AcuerdosController.cs",
+              "DocumentMoniker": "C:\\AngularSrDeveloper\\Back-Tesis\\API_Archivo\\API_Archivo\\Controllers\\AcuerdosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AcuerdosController.cs",
+              "ToolTip": "C:\\AngularSrDeveloper\\Back-Tesis\\API_Archivo\\API_Archivo\\Controllers\\AcuerdosController.cs",
+              "RelativeToolTip": "Controllers\\AcuerdosController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T04:05:50.717Z",
+              "EditorCaption": ""
             }
           ]
         }

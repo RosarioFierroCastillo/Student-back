@@ -3,6 +3,10 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using MySql.Data.MySqlClient;
 using System.Reflection.PortableExecutable;
+using System.Xml.Linq;
+
+using PdfSharp.Drawing;
+using PdfSharp.Pdf;
 
 namespace API_Archivo.Controllers
 {
@@ -371,5 +375,7 @@ namespace API_Archivo.Controllers
             }
 
         }
+
+        
     }
 }

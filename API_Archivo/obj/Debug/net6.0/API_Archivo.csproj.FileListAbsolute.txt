@@ -400,3 +400,13 @@ C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\obj\Debug\net6.0\API_Ar
 C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\obj\Debug\net6.0\API_Archivo.genruntimeconfig.cache
 C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\obj\Debug\net6.0\ref\API_Archivo.dll
 C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\obj\Debug\net6.0\API_Archivo.sourcelink.json
+C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\obj\Debug\net6.0\API_Archivo.Reportes.ReportChecador.resources
+C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\obj\Debug\net6.0\API_Archivo.csproj.GenerateResource.cache
+C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\bin\Debug\net6.0\PdfSharp.Charting.dll
+C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\bin\Debug\net6.0\PdfSharp.Quality.dll
+C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\bin\Debug\net6.0\PdfSharp.Snippets.dll
+C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\bin\Debug\net6.0\PdfSharp.System.dll
+C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\bin\Debug\net6.0\PdfSharp.WPFonts.dll
+C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\bin\Debug\net6.0\PdfSharp.dll
+C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\bin\Debug\net6.0\de\PdfSharp.Charting.resources.dll
+C:\AngularSrDeveloper\Back-Tesis\API_Archivo\API_Archivo\bin\Debug\net6.0\de\PdfSharp.resources.dll
