@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\default.LAPTOP-SHPJT9PE\\Desktop\\Tesis-01NOV\\Backend-01NOV\\API_Archivo\\API_Archivo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7AE971-B552-40BC-9F68-54EAACF16468}|API_Archivo.csproj|c:\\users\\default.laptop-shpjt9pe\\desktop\\tesis-01nov\\backend-01nov\\api_archivo\\api_archivo\\controllers\\whatsappcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C7AE971-B552-40BC-9F68-54EAACF16468}|API_Archivo.csproj|solutionrelative:controllers\\whatsappcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7AE971-B552-40BC-9F68-54EAACF16468}|API_Archivo.csproj|c:\\users\\default.laptop-shpjt9pe\\desktop\\tesis-01nov\\backend-01nov\\api_archivo\\api_archivo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C7AE971-B552-40BC-9F68-54EAACF16468}|API_Archivo.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7AE971-B552-40BC-9F68-54EAACF16468}|API_Archivo.csproj|c:\\users\\default.laptop-shpjt9pe\\desktop\\tesis-01nov\\backend-01nov\\api_archivo\\api_archivo\\controllers\\sesioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C7AE971-B552-40BC-9F68-54EAACF16468}|API_Archivo.csproj|solutionrelative:controllers\\sesioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7AE971-B552-40BC-9F68-54EAACF16468}|API_Archivo.csproj|c:\\users\\default.laptop-shpjt9pe\\desktop\\tesis-01nov\\backend-01nov\\api_archivo\\api_archivo\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C7AE971-B552-40BC-9F68-54EAACF16468}|API_Archivo.csproj|solutionrelative:controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7AE971-B552-40BC-9F68-54EAACF16468}|API_Archivo.csproj|c:\\users\\default.laptop-shpjt9pe\\desktop\\tesis-01nov\\backend-01nov\\api_archivo\\api_archivo\\controllers\\graficoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C7AE971-B552-40BC-9F68-54EAACF16468}|API_Archivo.csproj|solutionrelative:controllers\\graficoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\default.LAPTOP-SHPJT9PE\\Desktop\\Tesis-01NOV\\Backend-01NOV\\API_Archivo\\API_Archivo\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\default.LAPTOP-SHPJT9PE\\Desktop\\Tesis-01NOV\\Backend-01NOV\\API_Archivo\\API_Archivo\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAGkAAAAAAAAAAAAAAHAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T03:18:58.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GraficosController.cs",
+              "DocumentMoniker": "C:\\Users\\default.LAPTOP-SHPJT9PE\\Desktop\\Tesis-01NOV\\Backend-01NOV\\API_Archivo\\API_Archivo\\Controllers\\GraficosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\GraficosController.cs",
+              "ToolTip": "C:\\Users\\default.LAPTOP-SHPJT9PE\\Desktop\\Tesis-01NOV\\Backend-01NOV\\API_Archivo\\API_Archivo\\Controllers\\GraficosController.cs",
+              "RelativeToolTip": "Controllers\\GraficosController.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAD4vxMAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T02:41:17.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SesionController.cs",
+              "DocumentMoniker": "C:\\Users\\default.LAPTOP-SHPJT9PE\\Desktop\\Tesis-01NOV\\Backend-01NOV\\API_Archivo\\API_Archivo\\Controllers\\SesionController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SesionController.cs",
+              "ToolTip": "C:\\Users\\default.LAPTOP-SHPJT9PE\\Desktop\\Tesis-01NOV\\Backend-01NOV\\API_Archivo\\API_Archivo\\Controllers\\SesionController.cs",
+              "RelativeToolTip": "Controllers\\SesionController.cs",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAWwFsAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T02:41:17.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WhatsappController.cs",
+              "DocumentMoniker": "C:\\Users\\default.LAPTOP-SHPJT9PE\\Desktop\\Tesis-01NOV\\Backend-01NOV\\API_Archivo\\API_Archivo\\Controllers\\WhatsappController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WhatsappController.cs",
+              "ToolTip": "C:\\Users\\default.LAPTOP-SHPJT9PE\\Desktop\\Tesis-01NOV\\Backend-01NOV\\API_Archivo\\API_Archivo\\Controllers\\WhatsappController.cs",
+              "RelativeToolTip": "Controllers\\WhatsappController.cs",
+              "ViewState": "AQIAAMAAAAAAAAAAAAAMwGkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T02:41:17.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "C:\\Users\\default.LAPTOP-SHPJT9PE\\Desktop\\Tesis-01NOV\\Backend-01NOV\\API_Archivo\\API_Archivo\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsuariosController.cs",
+              "ToolTip": "C:\\Users\\default.LAPTOP-SHPJT9PE\\Desktop\\Tesis-01NOV\\Backend-01NOV\\API_Archivo\\API_Archivo\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "Controllers\\UsuariosController.cs",
+              "ViewState": "AQIAAJoAAAAAAAAAAAAMwOAAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T02:41:38.412Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
