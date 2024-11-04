@@ -80,6 +80,7 @@ C:\Users\default.LAPTOP-SHPJT9PE\Desktop\Tesis-01NOV\Backend-01NOV\API_Archivo\A
 C:\Users\default.LAPTOP-SHPJT9PE\Desktop\Tesis-01NOV\Backend-01NOV\API_Archivo\API_Archivo\obj\Release\net6.0\API_Archivo.pdb
 C:\Users\default.LAPTOP-SHPJT9PE\Desktop\Tesis-01NOV\Backend-01NOV\API_Archivo\API_Archivo\obj\Release\net6.0\API_Archivo.genruntimeconfig.cache
 C:\Users\default.LAPTOP-SHPJT9PE\Desktop\Tesis-01NOV\Backend-01NOV\API_Archivo\API_Archivo\obj\Release\net6.0\ref\API_Archivo.dll
+C:\Users\default.LAPTOP-SHPJT9PE\Desktop\Tesis-01NOV\Backend-01NOV\API_Archivo\API_Archivo\obj\Release\net6.0\API_Archivo.sourcelink.json
 C:\Users\default.LAPTOP-SHPJT9PE\Desktop\Tesis-01NOV\Backend-01NOV\API_Archivo\API_Archivo\bin\Release\net6.0\assets\codigoQR.png
 C:\Users\default.LAPTOP-SHPJT9PE\Desktop\Tesis-01NOV\Backend-01NOV\API_Archivo\API_Archivo\bin\Release\net6.0\assets\default.jpg
 C:\Users\default.LAPTOP-SHPJT9PE\Desktop\Tesis-01NOV\Backend-01NOV\API_Archivo\API_Archivo\bin\Release\net6.0\assets\disenio.png

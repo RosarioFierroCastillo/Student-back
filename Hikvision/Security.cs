@@ -17,7 +17,7 @@ namespace CardManagement
             string strDeviceIp = struDeviceInfo.strDeviceIP;
             string strHttpMethod = "GET";
             //  string strUrl = "http://" + strDeviceIp + ":" + struDeviceInfo.strHttpPort + "/ISAPI/Security/userCheck";
-            string strUrl = strDeviceIp + "/ISAPI/Security/userCheck";
+            string strUrl ="http://" + strDeviceIp + struDeviceInfo.strHttpPort + "/ISAPI/Security/userCheck";
             string strResponse = string.Empty;
 
             HttpClient client = new HttpClient();

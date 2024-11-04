@@ -51,7 +51,7 @@ namespace CardManagement
 
                             port = reader.GetString(4),
 
-                            
+
 
 
                             ip = reader.GetString(5)
@@ -77,10 +77,6 @@ namespace CardManagement
 
         }
 
-
-
-
-
         public static DeviceInfo struDeviceInfo;
 
         public static string ActionISAPI(string szUrl, string szRequest, string szMethod)
@@ -92,13 +88,13 @@ namespace CardManagement
 
                 if (AddDevice.struDeviceInfo.strHttpPort.Equals(""))
                 {
-                    //szUrl = "http://" + AddDevice.struDeviceInfo.strDeviceIP + szUrl;
-                    szUrl = AddDevice.struDeviceInfo.strDeviceIP + szUrl;
+                    szUrl = "http://" + AddDevice.struDeviceInfo.strDeviceIP + szUrl;
+                    //szUrl = AddDevice.struDeviceInfo.strDeviceIP + szUrl;
 
                 }
                 else
                 {
-                    szUrl = "http://" + AddDevice.struDeviceInfo.strDeviceIP + ":" + AddDevice.struDeviceInfo.strHttpPort + szUrl;
+                    szUrl = "http://" + AddDevice.struDeviceInfo.strDeviceIP + AddDevice.struDeviceInfo.strHttpPort + szUrl;
 
                 }
             }
@@ -177,7 +173,7 @@ namespace CardManagement
 
             foreach (var dispositivo in controlador)
             {
-                if (dispositivo.port.Equals("0")) { dispositivo.port = ""; }
+                if (dispositivo.port.Equals("0")) { dispositivo.port = ""; } else { dispositivo.port = ":" + dispositivo.port; }
                 struDeviceInfo.strUsername = dispositivo.user;
                 struDeviceInfo.strPassword = dispositivo.password;
                 struDeviceInfo.strDeviceIP = dispositivo.ip;
@@ -186,13 +182,18 @@ namespace CardManagement
             }
 
             bool num = false;
-            if (Security.Login(struDeviceInfo))
+
+            if (controlador.Count > 0)
             {
-                // user check success
-                num = true;
-                struDeviceInfo.bIsLogin = true;
-                Console.WriteLine("Hecho");
+                if (Security.Login(struDeviceInfo))
+                {
+                    // user check success
+                    num = true;
+                    struDeviceInfo.bIsLogin = true;
+                    Console.WriteLine("Hecho");
+                }
             }
+
 
             return num;
 
@@ -203,7 +204,7 @@ namespace CardManagement
             string szUrl = "/ISAPI/AccessControl/UserInfo/SetUp?format=json";
             string szRequest = "{\"UserInfo\":{\"employeeNo\":\"" + id_usuario +
             "\",\"name\":\"" + nombre +
-            "\",\"userType\":\"normal\",\"Valid\":{\"enable\":true,\"beginTime\":\""+fechaActual+"\",\"endTime\":\""+fechaProximoPago+"\"},\"doorRight\": \"1\",\"RightPlan\":[{\"doorNo\":1,\"planTemplateNo\":\"1\"}]}}";
+            "\",\"userType\":\"normal\",\"Valid\":{\"enable\":true,\"beginTime\":\"" + fechaActual + "\",\"endTime\":\"" + fechaProximoPago + "\"},\"doorRight\": \"1\",\"RightPlan\":[{\"doorNo\":1,\"planTemplateNo\":\"1\"}]}}";
             string szMethod = "PUT";
 
             string szResponse = ActionISAPI(szUrl, szRequest, szMethod);
@@ -229,8 +230,8 @@ namespace CardManagement
         {
             // var token = Guid.NewGuid().ToString();
             //    token.Substring(0, 3);
-           // var randomNumber = new Random().Next(0, 1000);
-        //    string token = randomNumber.ToString();
+            // var randomNumber = new Random().Next(0, 1000);
+            //    string token = randomNumber.ToString();
 
             string szUrl = "/ISAPI/AccessControl/CardInfo/SetUp?format=json";
             string szResponse = string.Empty;
@@ -431,5 +432,3 @@ namespace CardManagement
         }
     }
 }
-
-

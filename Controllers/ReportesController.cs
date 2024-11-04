@@ -363,7 +363,7 @@ namespace API_Archivo.Controllers
 
             // Encabezado
             XFont fontEncabezado = new XFont("Arial", 20, XFontStyleEx.Bold);
-            gfx.DrawString("Reporte de Deudores", fontEncabezado, XBrushes.DarkBlue,
+            gfx.DrawString("Reporte de deudores", fontEncabezado, XBrushes.DarkBlue,
                 new XRect(0, 40, page.Width, 40), XStringFormats.TopCenter);
 
             // Configuración de márgenes y anchos
@@ -374,10 +374,10 @@ namespace API_Archivo.Controllers
             double xPos = leftMargin; // Comenzar desde el margen izquierdo
 
             // Ancho de cada columna
-            double[] columnWidths = { 40, 100, 100, 120, 80, 80 }; // Ajustar para que quepan
-            string[] headers = { "ID", "Persona", "Tipo de Deuda", "Nombre de Deuda", "Monto", "Fecha de Pago" };
+            double[] columnWidths = { 150, 150, 120, 80, 80 }; // Ajustado para eliminar ID y Tipo de Deuda
+            string[] headers = { "Persona", "Nombre de deuda", "Monto", "Fecha" };
             XFont fontHeader = new XFont("Arial", 12, XFontStyleEx.Bold);
-            XFont fontData = new XFont("Arial", 12);
+            XFont fontData = new XFont("Arial", 10);
 
             // Dibujar encabezados
             for (int i = 0; i < headers.Length; i++)
@@ -390,21 +390,27 @@ namespace API_Archivo.Controllers
             yPos += 35;
 
             // Dibujar datos de deudores
-            foreach (var deudor in deudores)
+            for (int j = 0; j < deudores.Count; j++)
             {
+                var deudor = deudores[j];
                 xPos = leftMargin; // Reiniciar xPos al margen izquierdo
                 for (int i = 0; i < headers.Length; i++)
                 {
-                    gfx.DrawRectangle(XBrushes.White, xPos, yPos, columnWidths[i], 25);
+                    gfx.DrawRectangle(XBrushes.White, xPos, yPos, columnWidths[i], 35);
                     string data = "";
                     switch (i)
                     {
-                        case 0: data = deudor.id_deudor.ToString(); break;
-                        case 1: data = deudor.nombre_persona; break;
-                        case 2: data = deudor.tipo_deuda; break;
-                        case 3: data = deudor.nombre_deuda; break;
-                        case 4: data = deudor.monto.ToString("C"); break;
-                        case 5: data = DateTime.Parse(deudor.proximo_pago).ToString("yyyy-MM-dd"); break;
+                        case 0:
+                            data = deudor.nombre_persona;
+                            if (gfx.MeasureString(data, fontData).Width > columnWidths[i])
+                            {
+                                // Acortar el nombre si es demasiado largo
+                                data = data.Substring(0, Math.Min(data.Length, 20)) + "...";
+                            }
+                            break;
+                        case 1: data = deudor.nombre_deuda; break;
+                        case 2: data = deudor.monto.ToString("C"); break;
+                        case 3: data = DateTime.Parse(deudor.proximo_pago).ToString("yyyy-MM-dd"); break;
                     }
                     gfx.DrawString(data, fontData, XBrushes.Black,
                         new XRect(xPos, yPos, columnWidths[i], 25), XStringFormats.Center);
@@ -412,16 +418,24 @@ namespace API_Archivo.Controllers
                 }
                 yPos += 25;
 
-                // Dibujar línea inferior
-                gfx.DrawLine(XPens.Gray, leftMargin, yPos, page.Width - rightMargin, yPos);
+                // Dibujar línea inferior solo si no es el último registro
+                if (j < deudores.Count - 1)
+                {
+                    // Dibujar línea inferior
+                    gfx.DrawLine(XPens.Gray, leftMargin, yPos, leftMargin + 500, yPos); // Ajusta "500" para cambiar el largo de la línea
+
+                }
             }
 
             MemoryStream stream = new MemoryStream();
             document.Save(stream, false);
             stream.Position = 0;
 
-            return File(stream, "application/pdf", $"reporte_DeudoresFraccionamiento_{id_fraccionamiento}.pdf");
+            return File(stream, "application/pdf", $"reporte_deudores_fraccionamiento_{id_fraccionamiento}.pdf");
         }
+
+
+
 
 
         [HttpGet]

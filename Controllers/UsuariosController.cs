@@ -38,8 +38,8 @@ namespace API_Archivo.Controllers
 
                 // Comando SQL actualizado para incluir el campo de imagen
                 MySqlCommand comando = new MySqlCommand(
-                    "INSERT INTO personas (nombre, apellido_pat, apellido_mat, telefono, fecha_nacimiento, id_fraccionamiento, id_lote, correo, contrasenia, id_administrador, tipo_usuario, hikvision, imagen) " +
-                    "VALUES (@Nombre, @Apellido_pat, @Apellido_mat, @Telefono, @Fecha_nacimiento, @id_fraccionamiento, @id_lote, @correo, @contrasenia, @id_administrador, @tipo_usuario, @hikvision, @Imagen)",
+                    "INSERT INTO personas (nombre, apellido_pat, apellido_mat, telefono, fecha_nacimiento, id_fraccionamiento, id_lote,codigo_acceso, correo, contrasenia, id_administrador, tipo_usuario, hikvision, imagen) " +
+                    "VALUES (@Nombre, @Apellido_pat, @Apellido_mat, @Telefono, @Fecha_nacimiento, @id_fraccionamiento, @id_lote,@codigo_acceso, @correo, @contrasenia, @id_administrador, @tipo_usuario, @hikvision, @Imagen)",
                     conexion
                 );
 
@@ -51,6 +51,7 @@ namespace API_Archivo.Controllers
                 comando.Parameters.Add("@Fecha_nacimiento", MySqlDbType.DateTime).Value = request.fecha_nacimiento1;
                 comando.Parameters.Add("@id_fraccionamiento", MySqlDbType.Int32).Value = request.id_fraccionamiento;
                 comando.Parameters.Add("@id_lote", MySqlDbType.Int32).Value = request.id_lote;
+                comando.Parameters.Add("@codigo_acceso", MySqlDbType.VarChar).Value = request.codigo_acceso;
                 comando.Parameters.Add("@correo", MySqlDbType.VarChar).Value = request.correo;
                 comando.Parameters.Add("@contrasenia", MySqlDbType.VarChar).Value = request.contrasenia;
                 comando.Parameters.Add("@id_administrador", MySqlDbType.Int32).Value = request.id_administrador;

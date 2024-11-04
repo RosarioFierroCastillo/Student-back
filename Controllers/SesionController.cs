@@ -125,7 +125,7 @@ namespace API_Archivo.Controllers
                         //   tesorero = Obtener_Tesorero(row.Field<int>("id_persona"));
                         // var = AddDevice.Login(id_fraccionamiento);
 
-                        //var = AddDevice.Login(row.Field<int>("id_fraccionamiento")); esta es la que estaba descomentada
+                        var = AddDevice.Login(row.Field<int>("id_fraccionamiento")); //esta es la que estaba descomentada
 
 
                         list_sesion.Add(new Sesion()

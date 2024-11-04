@@ -583,3 +583,4 @@ C:\Users\default.LAPTOP-SHPJT9PE\Desktop\Tesis-01NOV\Backend-01NOV\API_Archivo\A
 C:\Users\default.LAPTOP-SHPJT9PE\Desktop\Tesis-01NOV\Backend-01NOV\API_Archivo\API_Archivo\obj\Debug\net6.0\API_Archivo.pdb
 C:\Users\default.LAPTOP-SHPJT9PE\Desktop\Tesis-01NOV\Backend-01NOV\API_Archivo\API_Archivo\obj\Debug\net6.0\API_Archivo.genruntimeconfig.cache
 C:\Users\default.LAPTOP-SHPJT9PE\Desktop\Tesis-01NOV\Backend-01NOV\API_Archivo\API_Archivo\obj\Debug\net6.0\ref\API_Archivo.dll
+C:\Users\default.LAPTOP-SHPJT9PE\Desktop\Tesis-01NOV\Backend-01NOV\API_Archivo\API_Archivo\obj\Debug\net6.0\API_Archivo.sourcelink.json
