@@ -15,6 +15,8 @@ namespace API_Archivo.Clases
 
         public string destinatario { get; set; }
 
+        public string fecha { get; set; }
+
 
 
     }

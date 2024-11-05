@@ -79,7 +79,15 @@ namespace API_Archivo.Controllers
                         AddDevice.Login(id_fraccionamiento);
                         string ultima = Consultar_Ultima_Persona(id_administrador).ToString();
                         AddDevice.InsertUser(ultima, request.nombre, fechaActual, fechaProximoPago);
+
+                        DateTime fechaActual2 = DateTime.Now;
+                        string fechaString = fechaActual2.ToString("yyyy-MM-dd"); // Formato: "2024-11-04"
+                        NotificacionesController obj_notificaciones = new NotificacionesController();
+                        obj_notificaciones.Agregar_Notificacion(request.id_fraccionamiento.Value, "General", 0, "!Nuevo Usuario!", $"{request.nombre} {request.apellido_pat} ahora forma parte de tu comunidad", fechaString);
+
                     }
+
+
                 }
                 catch (MySqlException ex)
                 {
@@ -223,6 +231,12 @@ namespace API_Archivo.Controllers
         [Route("Generar_invitacion")]
         public bool Generar_invitacion(string token, string correo_invitado, int id_fraccionamiento, string nombre_fraccionamiento, string nombre_admin, string tipo_usuario)
         {
+            DateTime fechaActual = DateTime.Now;
+            string fechaString = fechaActual.ToString("yyyy-MM-dd"); // Formato: "2024-11-04"
+            NotificacionesController obj_notificaciones = new NotificacionesController();
+            obj_notificaciones.Agregar_Notificacion(id_fraccionamiento, "General", 0, "Invitación a usuario", $"El administrador {nombre_admin} ha invitado a la persona con el correo {correo_invitado} a unirse a la comunidad como {tipo_usuario}", fechaString);
+
+
             bool invitacion_agregada = false;
             using (MySqlConnection conexion = new MySqlConnection(Global.cadena_conexion))
             {

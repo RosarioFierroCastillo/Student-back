@@ -32,12 +32,20 @@ namespace API_Archivo.Controllers
             return Ok();
         }
 
+        /*
+         
+         DateTime fechaActual = DateTime.Now;
+        string fechaString = fechaActual.ToString("yyyy-MM-dd"); // Formato: "2024-11-04"
+        NotificacionesController obj_notificaciones = new NotificacionesController();
+        obj_notificaciones.Agregar_Notificacion(15, "General", 0, "Desde sesion", "Desde sesion", fechaString);
+
+         */
 
 
         [HttpPost]
         [Route("Agregar_Notificacion")]
 
-        public bool Agregar_Notificacion(int id_fraccionamiento, string tipo, int id_destinatario, string asunto, string mensaje)
+        public bool Agregar_Notificacion(int id_fraccionamiento, string tipo, int id_destinatario, string asunto, string mensaje, string? fecha=null)
         {
 
             bool Notificacion_agregada = false;
@@ -45,7 +53,7 @@ namespace API_Archivo.Controllers
             using (MySqlConnection conexion = new MySqlConnection(Global.cadena_conexion))
             {
                 int rowsaffected = 0;
-                MySqlCommand comando = new MySqlCommand("insert into notificaciones ( id_fraccionamiento, tipo, id_destinatario, asunto, mensaje) VALUES (@id_fraccionamiento, @Tipo, @id_destinatario, @Asunto, @Mensaje)", conexion);
+                MySqlCommand comando = new MySqlCommand("insert into notificaciones ( id_fraccionamiento, tipo, id_destinatario, asunto, mensaje, fecha) VALUES (@id_fraccionamiento, @Tipo, @id_destinatario, @Asunto, @Mensaje, @fecha)", conexion);
 
                 //id_fraccionamiento=@id_fraccionamiento, Tipo=@Tipo, Destinatario=@Destinatario, Asunto=@Asunto, Mensaje=@Mensaje
 
@@ -54,6 +62,7 @@ namespace API_Archivo.Controllers
                 comando.Parameters.Add("@id_destinatario", MySqlDbType.Int32).Value = id_destinatario;
                 comando.Parameters.Add("@Asunto", MySqlDbType.VarChar).Value = asunto;
                 comando.Parameters.Add("@Mensaje", MySqlDbType.VarChar).Value = mensaje;
+                comando.Parameters.Add("@fecha", MySqlDbType.VarChar).Value = fecha;
 
 
 
@@ -269,7 +278,8 @@ namespace API_Archivo.Controllers
                             tipo = reader.GetString(2), 
                             id_destinatario = reader.GetInt32(3), 
                             asunto = reader.GetString(4), 
-                            mensaje = reader.GetString(5) 
+                            mensaje = reader.GetString(5),
+                            
                         });
                         // MessageBox.Show();
                     }
@@ -360,7 +370,8 @@ namespace API_Archivo.Controllers
 
                     while (reader.Read())
                     {
-                        Lista_notificaciones.Add(new Notificaciones() { id_notificacion = reader.GetInt32(0), id_fraccionamiento = reader.GetInt32(1), tipo = reader.GetString(2), id_destinatario = reader.GetInt32(3), asunto = reader.GetString(4), mensaje = reader.GetString(5), visualizacion = reader.GetInt32(6), destinatario = reader.GetString(7) });
+                        Lista_notificaciones.Add(new Notificaciones() { id_notificacion = reader.GetInt32(0), id_fraccionamiento = reader.GetInt32(1), tipo = reader.GetString(2), id_destinatario = reader.GetInt32(3), asunto = reader.GetString(4), mensaje = reader.GetString(5), visualizacion = reader.GetInt32(6), destinatario = reader.GetString(7),
+                            fecha = !reader.IsDBNull(7) ? reader.GetString(7) : "SIN FECHA"   });
                         // MessageBox.Show();
                         Actualizar_estado_notificacion(reader.GetInt32(0));
                     }

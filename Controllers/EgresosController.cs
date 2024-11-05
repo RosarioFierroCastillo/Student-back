@@ -41,6 +41,11 @@ namespace API_Archivo.Controllers
                     if (rowsaffected >= 1)
                     {
                         egreso_agregado = true;
+
+                        DateTime fechaActual = DateTime.Now;
+                        string fechaString = fechaActual.ToString("yyyy-MM-dd"); // Formato: "2024-11-04"
+                        NotificacionesController obj_notificaciones = new NotificacionesController();
+                        obj_notificaciones.Agregar_Notificacion(id_fraccionamiento, "General", 0, "!Nuevo Egreso!", $"El administrador de tu comunidad ha registrado un nuevo egreso con el concepto de '{concepto}' por la cantidad de ${monto} al proveedor '{proveedor}'", fechaString);
                     }
 
                 }

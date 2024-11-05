@@ -354,85 +354,122 @@ namespace API_Archivo.Controllers
         [Route("Reporte_Deudores")]
         public IActionResult GenerarReporteDeudores(int id_fraccionamiento)
         {
+            // Crear una instancia del controlador de deudas
             DeudasController objDeudas = new DeudasController();
             List<Deudoress> deudores = objDeudas.Consultar_DeudoresOrdinarios(id_fraccionamiento);
 
+            // Crear un nuevo documento PDF
             PdfDocument document = new PdfDocument();
+
+            // Añadir una página al documento
             PdfPage page = document.AddPage();
+
+            // Obtener el objeto XGraphics para dibujar en la página
             XGraphics gfx = XGraphics.FromPdfPage(page);
 
-            // Encabezado
-            XFont fontEncabezado = new XFont("Arial", 20, XFontStyleEx.Bold);
-            gfx.DrawString("Reporte de deudores", fontEncabezado, XBrushes.DarkBlue,
-                new XRect(0, 40, page.Width, 40), XStringFormats.TopCenter);
-
-            // Configuración de márgenes y anchos
-            double leftMargin = 20;  // Margen izquierdo
-            double rightMargin = 20; // Margen derecho
-            double tableWidth = page.Width - leftMargin - rightMargin; // Ancho total de la tabla
-            double yPos = 90;
-            double xPos = leftMargin; // Comenzar desde el margen izquierdo
-
-            // Ancho de cada columna
-            double[] columnWidths = { 150, 150, 120, 80, 80 }; // Ajustado para eliminar ID y Tipo de Deuda
-            string[] headers = { "Persona", "Nombre de deuda", "Monto", "Fecha" };
-            XFont fontHeader = new XFont("Arial", 12, XFontStyleEx.Bold);
-            XFont fontData = new XFont("Arial", 10);
-
-            // Dibujar encabezados
-            for (int i = 0; i < headers.Length; i++)
+            // Cargar la imagen de encabezado
+            string path = Path.Combine(Directory.GetCurrentDirectory(), "assets/disenio.png");
+            if (!System.IO.File.Exists(path))
             {
-                gfx.DrawRectangle(XBrushes.LightSkyBlue, xPos, yPos, columnWidths[i], 35);
+                return NotFound("El archivo de imagen no se encontró.");
+            }
+            XImage logo = XImage.FromFile(path);
+
+            // Dibujar la imagen y el título
+            double imageWidth = 80;
+            double imageHeight = 80;
+            double yPosImage = 30;
+            gfx.DrawImage(logo, 40, yPosImage, imageWidth, imageHeight);
+
+            // Centrar el título "Reporte de Deudores"
+            XFont fontEncabezado = new XFont("Arial", 16, XFontStyleEx.Bold);
+            string titulo = "Reporte de Deudores";
+            XSize titleSize = gfx.MeasureString(titulo, fontEncabezado);
+            double titleXPos = (page.Width - titleSize.Width) / 2;
+            double titleYPos = yPosImage + (imageHeight / 2) - (titleSize.Height / 2);
+            gfx.DrawString(titulo, fontEncabezado, XBrushes.Black,
+                new XRect(titleXPos, titleYPos, titleSize.Width, titleSize.Height),
+                XStringFormats.TopLeft);
+
+            // Configuración de la tabla de datos
+            double yPos = yPosImage + imageHeight + 30;
+            double xPosBase = 20; // Margen izquierdo de la tabla
+            double xPosRight = page.Width - 20; // Margen derecho de la tabla
+
+            double[] columnWidths = { 30, 150, 120, 100, 80 };
+            double totalMonto = 0;
+
+            string[] headers = { "#", "Persona", "Nombre de Deuda", "Monto", "Fecha" };
+            XFont fontHeader = new XFont("Arial", 10, XFontStyleEx.Bold);
+            int numColumns = Math.Min(headers.Length, columnWidths.Length);
+
+            // Calcular el ancho total de la tabla
+            double totalTableWidth = xPosRight - xPosBase; // Ancho total de la tabla
+
+            // Ajustar los anchos de las columnas si es necesario para que el total coincida con el ancho de la línea
+            columnWidths[numColumns - 1] = totalTableWidth - columnWidths.Take(numColumns - 1).Sum();
+
+            // Dibujar encabezados de columna
+            for (int i = 0; i < numColumns; i++)
+            {
+                gfx.DrawRectangle(XBrushes.LightGray, xPosBase, yPos, columnWidths[i], 25);
                 gfx.DrawString(headers[i], fontHeader, XBrushes.Black,
-                    new XRect(xPos, yPos, columnWidths[i], 35), XStringFormats.Center);
-                xPos += columnWidths[i];
+                    new XRect(xPosBase, yPos, columnWidths[i], 25),
+                    XStringFormats.Center);
+                xPosBase += columnWidths[i];
             }
-            yPos += 35;
+            yPos += 25;
 
-            // Dibujar datos de deudores
-            for (int j = 0; j < deudores.Count; j++)
+            // Fuente para los datos
+            XFont fontData = new XFont("Arial", 9);
+
+            // Dibujar los datos de los deudores
+            foreach (var deudor in deudores)
             {
-                var deudor = deudores[j];
-                xPos = leftMargin; // Reiniciar xPos al margen izquierdo
-                for (int i = 0; i < headers.Length; i++)
-                {
-                    gfx.DrawRectangle(XBrushes.White, xPos, yPos, columnWidths[i], 35);
-                    string data = "";
-                    switch (i)
-                    {
-                        case 0:
-                            data = deudor.nombre_persona;
-                            if (gfx.MeasureString(data, fontData).Width > columnWidths[i])
-                            {
-                                // Acortar el nombre si es demasiado largo
-                                data = data.Substring(0, Math.Min(data.Length, 20)) + "...";
-                            }
-                            break;
-                        case 1: data = deudor.nombre_deuda; break;
-                        case 2: data = deudor.monto.ToString("C"); break;
-                        case 3: data = DateTime.Parse(deudor.proximo_pago).ToString("yyyy-MM-dd"); break;
-                    }
-                    gfx.DrawString(data, fontData, XBrushes.Black,
-                        new XRect(xPos, yPos, columnWidths[i], 25), XStringFormats.Center);
-                    xPos += columnWidths[i];
-                }
-                yPos += 25;
+                xPosBase = 20; // Reiniciar la posición x para cada fila
 
-                // Dibujar línea inferior solo si no es el último registro
-                if (j < deudores.Count - 1)
-                {
-                    // Dibujar línea inferior
-                    gfx.DrawLine(XPens.Gray, leftMargin, yPos, leftMargin + 500, yPos); // Ajusta "500" para cambiar el largo de la línea
+                string[] dataValues = {
+            deudor.id_deuda.ToString(),
+            deudor.nombre_persona.Length > 20 ? deudor.nombre_persona.Substring(0, 20) + "..." : deudor.nombre_persona,
+            deudor.nombre_deuda,
+            deudor.monto.ToString("C2", System.Globalization.CultureInfo.CurrentCulture),
+            DateTime.Parse(deudor.proximo_pago).ToString("dd/MM/yyyy")
+        };
 
+                for (int i = 0; i < numColumns; i++)
+                {
+                    gfx.DrawRectangle(XBrushes.White, xPosBase, yPos, columnWidths[i], 20);
+                    gfx.DrawString(dataValues[i], fontData, XBrushes.Black,
+                        new XRect(xPosBase, yPos, columnWidths[i], 20),
+                        XStringFormats.Center);
+                    xPosBase += columnWidths[i];
                 }
+
+                totalMonto += deudor.monto; // Sumar el monto al total
+                yPos += 20;
             }
 
+            // Dibujar el total al final de la tabla
+            yPos += 20;
+            gfx.DrawLine(XPens.Black, xPosBase - totalTableWidth, yPos, xPosRight, yPos); // Línea alineada con la tabla
+            yPos += 5;
+            gfx.DrawString($"Total Deuda: {totalMonto.ToString("C2")}", new XFont("Arial", 12, XFontStyleEx.Bold), XBrushes.DarkBlue,
+                new XRect(xPosBase - totalTableWidth, yPos, totalTableWidth, 20), XStringFormats.TopLeft);
+
+            // Guardar el documento en un MemoryStream
             MemoryStream stream = new MemoryStream();
             document.Save(stream, false);
             stream.Position = 0;
 
+            // Devolver el PDF como un archivo para descargar
             return File(stream, "application/pdf", $"reporte_deudores_fraccionamiento_{id_fraccionamiento}.pdf");
         }
+
+
+
+
+
+
 
 
 
@@ -658,62 +695,77 @@ namespace API_Archivo.Controllers
             // Obtener el objeto XGraphics para dibujar en la página
             XGraphics gfx = XGraphics.FromPdfPage(page);
 
-            // Dibujar el encabezado
-            XFont fontEncabezado = new XFont("Arial", 14);
-            XSize textSize = gfx.MeasureString("Reporte de Ingresos", fontEncabezado);
-            double xPos = (page.Width - textSize.Width) / 2;
-            double yPos = 30;
-            gfx.DrawString("Reporte de Ingresos", fontEncabezado, XBrushes.Black,
-                new XRect(xPos, yPos, page.Width, page.Height),
+            // Manejo de la imagen desde la carpeta de assets
+            string path = Path.Combine(Directory.GetCurrentDirectory(), "assets/disenio.png");
+            if (!System.IO.File.Exists(path))
+            {
+                return NotFound("El archivo de imagen no se encontró.");
+            }
+
+            XImage logo = XImage.FromFile(path);
+
+            // Ajustes de presentación de la imagen y título
+            double imageWidth = 80;
+            double imageHeight = 80;
+            double yPosImage = 30;
+            gfx.DrawImage(logo, 40, yPosImage, imageWidth, imageHeight);
+
+            // Centrar el título "Reporte de Ingresos"
+            XFont fontEncabezado = new XFont("Arial", 16, XFontStyleEx.Bold);
+            string titulo = "Reporte de Ingresos";
+            XSize titleSize = gfx.MeasureString(titulo, fontEncabezado);
+            double titleXPos = (page.Width - titleSize.Width) / 2; // Cálculo para centrar el título
+            double titleYPos = yPosImage + (imageHeight / 2) - (titleSize.Height / 2); // Centrar con respecto a la imagen
+
+            gfx.DrawString(titulo, fontEncabezado, XBrushes.Black,
+                new XRect(titleXPos, titleYPos, titleSize.Width, titleSize.Height),
                 XStringFormats.TopLeft);
 
             // Ajustes para la tabla de datos
-            double tableWidth = page.Width - 40; // Ajustar para dejar márgenes
-            yPos += 40; // Ajuste de la posición Y
-            double xPosBase = 10; // Margen izquierdo ajustado más a la izquierda
+            double tableWidth = page.Width - 40;
+            double yPos = yPosImage + imageHeight + 30;
+            double xPosBase = 10;
 
-            // Ancho de cada columna ajustado
-            double[] columnWidths = { 30, 110, 80, 90, 60, 60, 70, 80 }; // Manteniendo el ancho de las columnas
-            double totalWidth = columnWidths.Sum(); // Sumar los anchos de las columnas
+            double[] columnWidths = { 30, 110, 80, 90, 60, 60, 70, 80 };
+            double totalWidth = columnWidths.Sum();
 
-            // Encabezados de columna
             string[] headers = { "#", "Deudor", "Tipo de deuda", "Descripción", "Monto", "Recargo", "Estado", "Fecha" };
-            XFont fontHeader = new XFont("Arial", 10); // Tamaño de letra reducido
-
-            // Asegurarse que los encabezados y los anchos de columna tienen la misma longitud
+            XFont fontHeader = new XFont("Arial", 10, XFontStyleEx.Bold);
             int numColumns = Math.Min(headers.Length, columnWidths.Length);
 
-            // Dibujar encabezados de columna
             for (int i = 0; i < numColumns; i++)
             {
-                gfx.DrawRectangle(XBrushes.LightGray, xPosBase, yPos, columnWidths[i], 25); // Altura fija de celda
+                gfx.DrawRectangle(XBrushes.LightGray, xPosBase, yPos, columnWidths[i], 25);
                 gfx.DrawString(headers[i], fontHeader, XBrushes.Black,
                     new XRect(xPosBase, yPos, columnWidths[i], 25),
                     XStringFormats.Center);
                 xPosBase += columnWidths[i];
             }
-            yPos += 25; // Ajuste de la posición Y
+            yPos += 25;
 
-            // Datos del historial de deudas
-            XFont fontData = new XFont("Arial", 9); // Tamaño de letra reducido
+            XFont fontData = new XFont("Arial", 9);
+            double totalMonto = 0;
+
             foreach (var deuda in historial_deudas)
             {
-                xPosBase = 10; // Reiniciar posición X para cada fila (ajustado más a la izquierda)
+                xPosBase = 10;
 
-                // Dibujar cada celda de datos
                 for (int i = 0; i < numColumns; i++)
                 {
                     string dataValue = "";
                     switch (i)
                     {
-                        case 0: dataValue = deuda.id_deuda.ToString(); break; // Campo "id_deuda"
-                        case 1: dataValue = deuda.nombre_persona; break; // Deudor
-                        case 2: dataValue = deuda.tipo_deuda; break; // Tipo de deuda
-                        case 3: dataValue = deuda.nombre_deuda; break; // Descripción
-                        case 4: dataValue = deuda.monto.ToString("C"); break; // Monto
-                        case 5: dataValue = deuda.recargo.ToString("C"); break; // Recargo
-                        case 6: dataValue = deuda.estado; break; // Estado
-                        case 7: dataValue = deuda.dia_registro; break; // Fecha
+                        case 0: dataValue = deuda.id_deuda.ToString(); break;
+                        case 1: dataValue = deuda.nombre_persona; break;
+                        case 2: dataValue = deuda.tipo_deuda; break;
+                        case 3: dataValue = deuda.nombre_deuda; break;
+                        case 4:
+                            dataValue = deuda.monto.ToString("C");
+                            totalMonto += deuda.monto;
+                            break;
+                        case 5: dataValue = deuda.recargo.ToString("C"); break;
+                        case 6: dataValue = deuda.estado; break;
+                        case 7: dataValue = deuda.dia_registro; break;
                         default: break;
                     }
 
@@ -724,8 +776,15 @@ namespace API_Archivo.Controllers
                     xPosBase += columnWidths[i];
                 }
 
-                yPos += 20; // Ajuste de la posición Y
+                yPos += 20;
             }
+
+            // Añadir el total al final de la tabla
+            yPos += 20;
+            gfx.DrawLine(XPens.Black, 10, yPos, page.Width - 10, yPos); // Línea de separación
+            yPos += 5;
+            gfx.DrawString($"Total Monto: {totalMonto.ToString("C")}", new XFont("Arial", 12, XFontStyleEx.Bold), XBrushes.DarkBlue,
+                new XRect(10, yPos, page.Width - 20, 20), XStringFormats.TopLeft);
 
             // Guardar el documento en un MemoryStream
             MemoryStream stream = new MemoryStream();
@@ -736,10 +795,16 @@ namespace API_Archivo.Controllers
             return File(stream, "application/pdf", $"reporte_HistorialDeudas_{id_fraccionamiento}.pdf");
         }
 
+
+
+
+
+
         [HttpGet]
         [Route("Reporte_Egresos")]
         public IActionResult GenerarReporteEgresos(int id_fraccionamiento)
         {
+            // Crear una instancia del controlador de egresos
             EgresosController objEgresos = new EgresosController();
             List<Egresos> egresos = objEgresos.Consultar_Egresos(id_fraccionamiento);
 
@@ -752,91 +817,90 @@ namespace API_Archivo.Controllers
             // Obtener el objeto XGraphics para dibujar en la página
             XGraphics gfx = XGraphics.FromPdfPage(page);
 
-            // Dibujar el encabezado
-            XFont fontEncabezado = new XFont("Arial", 16);
-            XSize textSize = gfx.MeasureString("Reporte de Egresos", fontEncabezado);
-            double xPos = (page.Width - textSize.Width) / 2; // Centrar horizontalmente
-            double yPos = 40; // Posición fija en la parte superior de la página
-            gfx.DrawString("Reporte de Egresos", fontEncabezado, XBrushes.Black,
-                new XRect(xPos, yPos, page.Width, page.Height),
+            // Cargar la imagen
+            string path = Path.Combine(Directory.GetCurrentDirectory(), "assets/disenio.png");
+            if (!System.IO.File.Exists(path))
+            {
+                return NotFound("El archivo de imagen no se encontró.");
+            }
+
+            XImage logo = XImage.FromFile(path);
+
+            // Dibujar la imagen y el título
+            double imageWidth = 80;
+            double imageHeight = 80;
+            double yPosImage = 30;
+            gfx.DrawImage(logo, 40, yPosImage, imageWidth, imageHeight);
+
+            // Centrar el título "Reporte de Egresos"
+            XFont fontEncabezado = new XFont("Arial", 16, XFontStyleEx.Bold);
+            string titulo = "Reporte de Egresos";
+            XSize titleSize = gfx.MeasureString(titulo, fontEncabezado);
+            double titleXPos = (page.Width - titleSize.Width) / 2;
+            double titleYPos = yPosImage + (imageHeight / 2) - (titleSize.Height / 2);
+            gfx.DrawString(titulo, fontEncabezado, XBrushes.Black,
+                new XRect(titleXPos, titleYPos, titleSize.Width, titleSize.Height),
                 XStringFormats.TopLeft);
 
-            // Dibujar la tabla de datos
-            double tableWidth = 500; // Ancho total de la tabla
-            yPos += 30; // Ajuste de la posición Y
-            xPos = (page.Width - tableWidth) / 2; // Centrar la tabla horizontalmente
-            xPos -= 40; // Ajuste hacia la izquierda para centrar más
+            // Configuración de la tabla de datos
+            double tableWidth = page.Width - 40;
+            double yPos = yPosImage + imageHeight + 30;
+            double xPosBase = 10;
 
-            // Ancho de cada columna (ajustado)
-            double[] columnWidths = { 30, 100, 160, 140, 80, 60 }; // Ancho de cada columna en orden
+            double[] columnWidths = { 30, 100, 160, 140, 80, 60 };
+            double totalEgresos = 0;
 
-            // Encabezados de columna
             string[] headers = { "#", "Concepto", "Descripción", "Proveedor", "Monto", "Fecha" };
-            XFont fontHeader = new XFont("Arial", 12);
-            for (int i = 0; i < headers.Length; i++)
-            {
-                gfx.DrawRectangle(XBrushes.LightGray, xPos, yPos, columnWidths[i], 30); // Altura fija de celda
-                gfx.DrawString(headers[i], fontHeader, XBrushes.Black,
-                    new XRect(xPos, yPos, columnWidths[i], 30),
-                    XStringFormats.Center);
-                xPos += columnWidths[i];
-            }
-            yPos += 30; // Ajuste de la posición Y
+            XFont fontHeader = new XFont("Arial", 10, XFontStyleEx.Bold);
+            int numColumns = Math.Min(headers.Length, columnWidths.Length);
 
-            // Datos de los egresos
-            XFont fontData = new XFont("Arial", 12);
+            // Dibujar encabezados de columna
+            for (int i = 0; i < numColumns; i++)
+            {
+                gfx.DrawRectangle(XBrushes.LightGray, xPosBase, yPos, columnWidths[i], 25);
+                gfx.DrawString(headers[i], fontHeader, XBrushes.Black,
+                    new XRect(xPosBase, yPos, columnWidths[i], 25),
+                    XStringFormats.Center);
+                xPosBase += columnWidths[i];
+            }
+            yPos += 25;
+
+            // Fuente para los datos
+            XFont fontData = new XFont("Arial", 9);
+
+            // Dibujar los datos de los egresos
             foreach (var egreso in egresos)
             {
-                xPos = (page.Width - tableWidth) / 2; // Centrar horizontalmente
-                xPos -= 40; // Ajuste hacia la izquierda para centrar más
+                xPosBase = 10;
 
-                // Dibujar cada celda de datos
-                gfx.DrawRectangle(XBrushes.White, xPos, yPos, columnWidths[0], 20); // ID Egreso
-                gfx.DrawString(egreso.id_egreso.ToString(), fontData, XBrushes.Black,
-                    new XRect(xPos, yPos, columnWidths[0], 20),
-                    XStringFormats.Center);
-                xPos += columnWidths[0];
+                string[] dataValues = {
+            egreso.id_egreso.ToString(),
+            egreso.concepto,
+            egreso.descripcion,
+            egreso.proveedor,
+            egreso.monto.ToString("C2", System.Globalization.CultureInfo.CurrentCulture),
+            DateTime.TryParse(egreso.fecha, out DateTime fecha) ? fecha.ToString("dd/MM/yyyy") : "N/A"
+        };
 
-                gfx.DrawRectangle(XBrushes.White, xPos, yPos, columnWidths[1], 20); // Concepto
-                gfx.DrawString(egreso.concepto, fontData, XBrushes.Black,
-                    new XRect(xPos, yPos, columnWidths[1], 20),
-                    XStringFormats.Center);
-                xPos += columnWidths[1];
-
-                gfx.DrawRectangle(XBrushes.White, xPos, yPos, columnWidths[2], 20); // Descripción
-                gfx.DrawString(egreso.descripcion, fontData, XBrushes.Black,
-                    new XRect(xPos, yPos, columnWidths[2], 20),
-                    XStringFormats.Center);
-                xPos += columnWidths[2];
-
-                gfx.DrawRectangle(XBrushes.White, xPos, yPos, columnWidths[3], 20); // Proveedor
-                gfx.DrawString(egreso.proveedor, fontData, XBrushes.Black,
-                    new XRect(xPos, yPos, columnWidths[3], 20),
-                    XStringFormats.Center);
-                xPos += columnWidths[3];
-
-                gfx.DrawRectangle(XBrushes.White, xPos, yPos, columnWidths[4], 20); // Monto
-                gfx.DrawString(egreso.monto.ToString("C2", System.Globalization.CultureInfo.CurrentCulture), fontData, XBrushes.Black,
-                    new XRect(xPos, yPos, columnWidths[4], 20),
-                    XStringFormats.Center);
-                xPos += columnWidths[4];
-
-                gfx.DrawRectangle(XBrushes.White, xPos, yPos, columnWidths[5], 20); // Fecha
-                if (DateTime.TryParse(egreso.fecha, out DateTime fecha))
+                for (int i = 0; i < numColumns; i++)
                 {
-                    gfx.DrawString(fecha.ToString("dd/MM/yyyy"), fontData, XBrushes.Black,
-                        new XRect(xPos, yPos, columnWidths[5], 20),
+                    gfx.DrawRectangle(XBrushes.White, xPosBase, yPos, columnWidths[i], 20);
+                    gfx.DrawString(dataValues[i], fontData, XBrushes.Black,
+                        new XRect(xPosBase, yPos, columnWidths[i], 20),
                         XStringFormats.Center);
-                }
-                else
-                {
-                    gfx.DrawString("N/A", fontData, XBrushes.Black,
-                        new XRect(xPos, yPos, columnWidths[5], 20),
-                        XStringFormats.Center);
+                    xPosBase += columnWidths[i];
                 }
 
-                yPos += 20; // Ajuste de la posición Y
+                totalEgresos += egreso.monto; // Sumar el monto al total
+                yPos += 20;
             }
+
+            // Dibujar el total al final de la tabla
+            yPos += 20;
+            gfx.DrawLine(XPens.Black, 10, yPos, page.Width - 10, yPos);
+            yPos += 5;
+            gfx.DrawString($"Total Egresos: {totalEgresos.ToString("C2")}", new XFont("Arial", 12, XFontStyleEx.Bold), XBrushes.DarkBlue,
+                new XRect(10, yPos, page.Width - 20, 20), XStringFormats.TopLeft);
 
             // Guardar el documento en un MemoryStream
             MemoryStream stream = new MemoryStream();
@@ -844,8 +908,9 @@ namespace API_Archivo.Controllers
             stream.Position = 0;
 
             // Devolver el PDF como un archivo para descargar
-            return File(stream, "application/pdf", $"reporte_Egresos.pdf");
+            return File(stream, "application/pdf", $"reporte_Egresos_{id_fraccionamiento}.pdf");
         }
+
 
 
 

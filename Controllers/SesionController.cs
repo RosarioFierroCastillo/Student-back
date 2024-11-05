@@ -92,6 +92,10 @@ namespace API_Archivo.Controllers
             List<Sesion> list_sesion = new List<Sesion>();
             string frac;
 
+            NotificacionesController obj_notificaciones = new NotificacionesController();
+
+            
+
             using (MySqlConnection conexion = new MySqlConnection(Global.cadena_conexion))
             {
                 int rowsaffected = 0;

@@ -35,7 +35,7 @@ namespace API_Archivo.Controllers
             using (MySqlConnection conexion = new MySqlConnection(Global.cadena_conexion))
             {
                 int rowsaffected = 0;
-                MySqlCommand comando = new MySqlCommand("insert into notificaciones ( id_fraccionamiento, tipo, id_destinatario, asunto, mensaje) VALUES (@id_fraccionamiento, @Tipo, @id_destinatario, @Asunto, @Mensaje)", conexion);
+                MySqlCommand comando = new MySqlCommand("insert into notificaciones ( id_fraccionamiento, tipo, id_destinatario, asunto, mensaje,fecha) VALUES (@id_fraccionamiento, @Tipo, @id_destinatario, @Asunto, @Mensaje)", conexion);
 
                 //id_fraccionamiento=@id_fraccionamiento, Tipo=@Tipo, Destinatario=@Destinatario, Asunto=@Asunto, Mensaje=@Mensaje
 
@@ -43,6 +43,7 @@ namespace API_Archivo.Controllers
                 comando.Parameters.Add("@Tipo", MySqlDbType.VarChar).Value = tipo;
                 comando.Parameters.Add("@id_destinatario", MySqlDbType.Int32).Value = id_destinatario;
                 comando.Parameters.Add("@Asunto", MySqlDbType.VarChar).Value = asunto;
+                comando.Parameters.Add("@Mensaje", MySqlDbType.VarChar).Value = mensaje;
                 comando.Parameters.Add("@Mensaje", MySqlDbType.VarChar).Value = mensaje;
 
 
