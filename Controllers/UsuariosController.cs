@@ -81,9 +81,9 @@ namespace API_Archivo.Controllers
                         AddDevice.InsertUser(ultima, request.nombre, fechaActual, fechaProximoPago);
 
                         DateTime fechaActual2 = DateTime.Now;
-                        string fechaString = fechaActual2.ToString("yyyy-MM-dd"); // Formato: "2024-11-04"
+                        string fechaString = fechaActual2.ToString("yyyy-MM-dd HH:mm"); // Formato: "2024-11-04 14:30
                         NotificacionesController obj_notificaciones = new NotificacionesController();
-                        obj_notificaciones.Agregar_Notificacion(request.id_fraccionamiento.Value, "General", 0, "!Nuevo Usuario!", $"{request.nombre} {request.apellido_pat} ahora forma parte de tu comunidad", fechaString);
+                        obj_notificaciones.Agregar_Notificacion(request.id_fraccionamiento.Value, "General", 0, "!Nuevo usuario!", $"{request.nombre} {request.apellido_pat} ahora forma parte de tu comunidad", fechaString);
 
                     }
 
@@ -232,9 +232,9 @@ namespace API_Archivo.Controllers
         public bool Generar_invitacion(string token, string correo_invitado, int id_fraccionamiento, string nombre_fraccionamiento, string nombre_admin, string tipo_usuario)
         {
             DateTime fechaActual = DateTime.Now;
-            string fechaString = fechaActual.ToString("yyyy-MM-dd"); // Formato: "2024-11-04"
+            string fechaString = fechaActual.ToString("yyyy-MM-dd HH:mm"); // Formato: "2024-11-04 14:30
             NotificacionesController obj_notificaciones = new NotificacionesController();
-            obj_notificaciones.Agregar_Notificacion(id_fraccionamiento, "General", 0, "Invitación a usuario", $"El administrador {nombre_admin} ha invitado a la persona con el correo {correo_invitado} a unirse a la comunidad como {tipo_usuario}", fechaString);
+            obj_notificaciones.Agregar_Notificacion(id_fraccionamiento, "General", 0, "Invitación a usuario", $"El administrador {nombre_admin.ToLower()} ha invitado a la persona con el correo {correo_invitado} a unirse a la comunidad como {tipo_usuario.ToLower()}", fechaString);
 
 
             bool invitacion_agregada = false;

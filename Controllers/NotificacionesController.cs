@@ -371,7 +371,7 @@ namespace API_Archivo.Controllers
                     while (reader.Read())
                     {
                         Lista_notificaciones.Add(new Notificaciones() { id_notificacion = reader.GetInt32(0), id_fraccionamiento = reader.GetInt32(1), tipo = reader.GetString(2), id_destinatario = reader.GetInt32(3), asunto = reader.GetString(4), mensaje = reader.GetString(5), visualizacion = reader.GetInt32(6), destinatario = reader.GetString(7),
-                            fecha = !reader.IsDBNull(7) ? reader.GetString(7) : "SIN FECHA"   });
+                            fecha = !reader.IsDBNull(8) ? reader.GetString(8) : "SIN FECHA"   });
                         // MessageBox.Show();
                         Actualizar_estado_notificacion(reader.GetInt32(0));
                     }

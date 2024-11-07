@@ -46,9 +46,9 @@ namespace API_Archivo.Controllers
                         Proveedor_agregado = true;
 
                         DateTime fechaActual = DateTime.Now;
-                        string fechaString = fechaActual.ToString("yyyy-MM-dd"); // Formato: "2024-11-04"
+                        string fechaString = fechaActual.ToString("yyyy-MM-dd HH:mm"); // Formato: "2024-11-04 14:30
                         NotificacionesController obj_notificaciones = new NotificacionesController();
-                        obj_notificaciones.Agregar_Notificacion(id_fraccionamiento, "General", 0, "!Nuevo Proveedor!", $"La {tipo} {nombre} ahora es proveedor de tu comunidad con la función de {funcion}", fechaString);
+                        obj_notificaciones.Agregar_Notificacion(id_fraccionamiento, "General", 0, "!Nuevo proveedor!", $"La {tipo.ToLower()} {nombre} ahora es proveedor de tu comunidad con la función de {funcion.ToLower()}", fechaString);
                     }
 
                 }

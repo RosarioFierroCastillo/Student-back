@@ -59,9 +59,9 @@ namespace API_Archivo.Controllers
                         fraccionamiento_agregado = true;
 
                         DateTime fechaActual = DateTime.Now;
-                        string fechaString = fechaActual.ToString("yyyy-MM-dd"); // Formato: "2024-11-04"
+                        string fechaString = fechaActual.ToString("yyyy-MM-dd HH:mm"); // Formato: "2024-11-04 14:30
                         NotificacionesController obj_notificaciones = new NotificacionesController();
-                        obj_notificaciones.Agregar_Notificacion(request.id_fraccionamiento, "General", 0, "!Nueva Deuda :(!", $"El administrador de tu comunidad ha agregado una nueva deuda por el concepto de '{request.nombre}' por un monto de ${request.monto} cada {request.periodicidad} días", fechaString);
+                        obj_notificaciones.Agregar_Notificacion(request.id_fraccionamiento, "General", 0, "!Nueva deuda :(!", $"El administrador de tu comunidad ha agregado una nueva deuda por el concepto de '{request.nombre.ToLower()}' por un monto de ${request.monto} cada {request.periodicidad} días", fechaString);
                     }
 
                 }

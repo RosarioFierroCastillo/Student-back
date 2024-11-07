@@ -3,20 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\default.LAPTOP-SHPJT9PE\\Desktop\\Tesis-01NOV\\Backend-01NOV\\API_Archivo\\API_Archivo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8C7AE971-B552-40BC-9F68-54EAACF16468}|API_Archivo.csproj|c:\\users\\default.laptop-shpjt9pe\\desktop\\tesis-01nov\\backend-01nov\\api_archivo\\api_archivo\\controllers\\notificacionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C7AE971-B552-40BC-9F68-54EAACF16468}|API_Archivo.csproj|solutionrelative:controllers\\notificacionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C7AE971-B552-40BC-9F68-54EAACF16468}|API_Archivo.csproj|c:\\users\\default.laptop-shpjt9pe\\desktop\\tesis-01nov\\backend-01nov\\api_archivo\\api_archivo\\controllers\\sesioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C7AE971-B552-40BC-9F68-54EAACF16468}|API_Archivo.csproj|solutionrelative:controllers\\sesioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8C7AE971-B552-40BC-9F68-54EAACF16468}|API_Archivo.csproj|c:\\users\\default.laptop-shpjt9pe\\desktop\\tesis-01nov\\backend-01nov\\api_archivo\\api_archivo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C7AE971-B552-40BC-9F68-54EAACF16468}|API_Archivo.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8C7AE971-B552-40BC-9F68-54EAACF16468}|API_Archivo.csproj|c:\\users\\default.laptop-shpjt9pe\\desktop\\tesis-01nov\\backend-01nov\\api_archivo\\api_archivo\\controllers\\deudascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8C7AE971-B552-40BC-9F68-54EAACF16468}|API_Archivo.csproj|solutionrelative:controllers\\deudascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{8C7AE971-B552-40BC-9F68-54EAACF16468}|API_Archivo.csproj|c:\\users\\default.laptop-shpjt9pe\\desktop\\tesis-01nov\\backend-01nov\\api_archivo\\api_archivo\\controllers\\notificacionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C7AE971-B552-40BC-9F68-54EAACF16468}|API_Archivo.csproj|solutionrelative:controllers\\notificacionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8C7AE971-B552-40BC-9F68-54EAACF16468}|API_Archivo.csproj|c:\\users\\default.laptop-shpjt9pe\\desktop\\tesis-01nov\\backend-01nov\\api_archivo\\api_archivo\\controllers\\whatsappcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8C7AE971-B552-40BC-9F68-54EAACF16468}|API_Archivo.csproj|solutionrelative:controllers\\whatsappcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7AE971-B552-40BC-9F68-54EAACF16468}|API_Archivo.csproj|c:\\users\\default.laptop-shpjt9pe\\desktop\\tesis-01nov\\backend-01nov\\api_archivo\\api_archivo\\controllers\\usuario_lotecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C7AE971-B552-40BC-9F68-54EAACF16468}|API_Archivo.csproj|solutionrelative:controllers\\usuario_lotecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7AE971-B552-40BC-9F68-54EAACF16468}|API_Archivo.csproj|c:\\users\\default.laptop-shpjt9pe\\desktop\\tesis-01nov\\backend-01nov\\api_archivo\\api_archivo\\controllers\\personascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C7AE971-B552-40BC-9F68-54EAACF16468}|API_Archivo.csproj|solutionrelative:controllers\\personascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7AE971-B552-40BC-9F68-54EAACF16468}|API_Archivo.csproj|c:\\users\\default.laptop-shpjt9pe\\desktop\\tesis-01nov\\backend-01nov\\api_archivo\\api_archivo\\hikvision\\adddevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C7AE971-B552-40BC-9F68-54EAACF16468}|API_Archivo.csproj|solutionrelative:hikvision\\adddevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7AE971-B552-40BC-9F68-54EAACF16468}|API_Archivo.csproj|c:\\users\\default.laptop-shpjt9pe\\desktop\\tesis-01nov\\backend-01nov\\api_archivo\\api_archivo\\controllers\\hikvisioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C7AE971-B552-40BC-9F68-54EAACF16468}|API_Archivo.csproj|solutionrelative:controllers\\hikvisioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7AE971-B552-40BC-9F68-54EAACF16468}|API_Archivo.csproj|c:\\users\\default.laptop-shpjt9pe\\desktop\\tesis-01nov\\backend-01nov\\api_archivo\\api_archivo\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C7AE971-B552-40BC-9F68-54EAACF16468}|API_Archivo.csproj|solutionrelative:controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7AE971-B552-40BC-9F68-54EAACF16468}|API_Archivo.csproj|c:\\users\\default.laptop-shpjt9pe\\desktop\\tesis-01nov\\backend-01nov\\api_archivo\\api_archivo\\controllers\\sesioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C7AE971-B552-40BC-9F68-54EAACF16468}|API_Archivo.csproj|solutionrelative:controllers\\sesioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7AE971-B552-40BC-9F68-54EAACF16468}|API_Archivo.csproj|c:\\users\\default.laptop-shpjt9pe\\desktop\\tesis-01nov\\backend-01nov\\api_archivo\\api_archivo\\controllers\\graficoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C7AE971-B552-40BC-9F68-54EAACF16468}|API_Archivo.csproj|solutionrelative:controllers\\graficoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,28 +70,80 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DeudasController.cs",
-              "DocumentMoniker": "C:\\Users\\default.LAPTOP-SHPJT9PE\\Desktop\\Tesis-01NOV\\Backend-01NOV\\API_Archivo\\API_Archivo\\Controllers\\DeudasController.cs",
-              "RelativeDocumentMoniker": "Controllers\\DeudasController.cs",
-              "ToolTip": "C:\\Users\\default.LAPTOP-SHPJT9PE\\Desktop\\Tesis-01NOV\\Backend-01NOV\\API_Archivo\\API_Archivo\\Controllers\\DeudasController.cs",
-              "RelativeToolTip": "Controllers\\DeudasController.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAnwD8AAAAYAAAA",
+              "DocumentIndex": 4,
+              "Title": "Usuario_loteController.cs",
+              "DocumentMoniker": "C:\\Users\\default.LAPTOP-SHPJT9PE\\Desktop\\Tesis-01NOV\\Backend-01NOV\\API_Archivo\\API_Archivo\\Controllers\\Usuario_loteController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Usuario_loteController.cs",
+              "ToolTip": "C:\\Users\\default.LAPTOP-SHPJT9PE\\Desktop\\Tesis-01NOV\\Backend-01NOV\\API_Archivo\\API_Archivo\\Controllers\\Usuario_loteController.cs",
+              "RelativeToolTip": "Controllers\\Usuario_loteController.cs",
+              "ViewState": "AQIAAB4BAAAAAAAAAAAawCABAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T02:21:12.374Z",
+              "WhenOpened": "2024-11-06T20:16:38.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PersonasController.cs",
+              "DocumentMoniker": "C:\\Users\\default.LAPTOP-SHPJT9PE\\Desktop\\Tesis-01NOV\\Backend-01NOV\\API_Archivo\\API_Archivo\\Controllers\\PersonasController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PersonasController.cs",
+              "ToolTip": "C:\\Users\\default.LAPTOP-SHPJT9PE\\Desktop\\Tesis-01NOV\\Backend-01NOV\\API_Archivo\\API_Archivo\\Controllers\\PersonasController.cs",
+              "RelativeToolTip": "Controllers\\PersonasController.cs",
+              "ViewState": "AQIAAKMAAAAAAAAAAIA5wEoBAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T20:16:38.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HikvisionController.cs",
+              "DocumentMoniker": "C:\\Users\\default.LAPTOP-SHPJT9PE\\Desktop\\Tesis-01NOV\\Backend-01NOV\\API_Archivo\\API_Archivo\\Controllers\\HikvisionController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HikvisionController.cs",
+              "ToolTip": "C:\\Users\\default.LAPTOP-SHPJT9PE\\Desktop\\Tesis-01NOV\\Backend-01NOV\\API_Archivo\\API_Archivo\\Controllers\\HikvisionController.cs",
+              "RelativeToolTip": "Controllers\\HikvisionController.cs",
+              "ViewState": "AQIAAAsBAAAAAAAAAAAuwBcBAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T20:12:48.499Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "DeudasController.cs",
+              "DocumentMoniker": "C:\\Users\\default.LAPTOP-SHPJT9PE\\Desktop\\Tesis-01NOV\\Backend-01NOV\\API_Archivo\\API_Archivo\\Controllers\\DeudasController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DeudasController.cs",
+              "ToolTip": "C:\\Users\\default.LAPTOP-SHPJT9PE\\Desktop\\Tesis-01NOV\\Backend-01NOV\\API_Archivo\\API_Archivo\\Controllers\\DeudasController.cs",
+              "RelativeToolTip": "Controllers\\DeudasController.cs",
+              "ViewState": "AQIAAMsCAAAAAAAAAAAhwNECAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T04:21:18.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GraficosController.cs",
+              "DocumentMoniker": "C:\\Users\\default.LAPTOP-SHPJT9PE\\Desktop\\Tesis-01NOV\\Backend-01NOV\\API_Archivo\\API_Archivo\\Controllers\\GraficosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\GraficosController.cs",
+              "ToolTip": "C:\\Users\\default.LAPTOP-SHPJT9PE\\Desktop\\Tesis-01NOV\\Backend-01NOV\\API_Archivo\\API_Archivo\\Controllers\\GraficosController.cs",
+              "RelativeToolTip": "Controllers\\GraficosController.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAvwBMAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T21:17:19.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "SesionController.cs",
               "DocumentMoniker": "C:\\Users\\default.LAPTOP-SHPJT9PE\\Desktop\\Tesis-01NOV\\Backend-01NOV\\API_Archivo\\API_Archivo\\Controllers\\SesionController.cs",
               "RelativeDocumentMoniker": "Controllers\\SesionController.cs",
               "ToolTip": "C:\\Users\\default.LAPTOP-SHPJT9PE\\Desktop\\Tesis-01NOV\\Backend-01NOV\\API_Archivo\\API_Archivo\\Controllers\\SesionController.cs",
               "RelativeToolTip": "Controllers\\SesionController.cs",
-              "ViewState": "AQIAAEsAAAAAAAAAAAAnwFsAAAAMAAAA",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAvwFsAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T01:01:43.426Z",
+              "WhenOpened": "2024-11-06T00:44:18.998Z",
               "EditorCaption": ""
             },
             {
@@ -74,22 +154,61 @@
               "RelativeDocumentMoniker": "Controllers\\WhatsappController.cs",
               "ToolTip": "C:\\Users\\default.LAPTOP-SHPJT9PE\\Desktop\\Tesis-01NOV\\Backend-01NOV\\API_Archivo\\API_Archivo\\Controllers\\WhatsappController.cs",
               "RelativeToolTip": "Controllers\\WhatsappController.cs",
-              "ViewState": "AQIAAFkAAAAAAAAAAAAnwGkAAAAIAAAA",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAlwEkAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T01:01:43.432Z",
+              "WhenOpened": "2024-11-06T00:44:19.006Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "NotificacionesController.cs",
               "DocumentMoniker": "C:\\Users\\default.LAPTOP-SHPJT9PE\\Desktop\\Tesis-01NOV\\Backend-01NOV\\API_Archivo\\API_Archivo\\Controllers\\NotificacionesController.cs",
               "RelativeDocumentMoniker": "Controllers\\NotificacionesController.cs",
               "ToolTip": "C:\\Users\\default.LAPTOP-SHPJT9PE\\Desktop\\Tesis-01NOV\\Backend-01NOV\\API_Archivo\\API_Archivo\\Controllers\\NotificacionesController.cs",
               "RelativeToolTip": "Controllers\\NotificacionesController.cs",
-              "ViewState": "AQIAAFQBAAAAAAAAAAArwPIAAAB+AAAA",
+              "ViewState": "AQIAAMcAAAAAAAAAAAAlwNgAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T23:24:08.836Z",
+              "WhenOpened": "2024-11-06T00:44:19.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\default.LAPTOP-SHPJT9PE\\Desktop\\Tesis-01NOV\\Backend-01NOV\\API_Archivo\\API_Archivo\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\default.LAPTOP-SHPJT9PE\\Desktop\\Tesis-01NOV\\Backend-01NOV\\API_Archivo\\API_Archivo\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAGwAAAAAAAAAAAAAAHAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T00:43:56.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AddDevice.cs",
+              "DocumentMoniker": "C:\\Users\\default.LAPTOP-SHPJT9PE\\Desktop\\Tesis-01NOV\\Backend-01NOV\\API_Archivo\\API_Archivo\\Hikvision\\AddDevice.cs",
+              "RelativeDocumentMoniker": "Hikvision\\AddDevice.cs",
+              "ToolTip": "C:\\Users\\default.LAPTOP-SHPJT9PE\\Desktop\\Tesis-01NOV\\Backend-01NOV\\API_Archivo\\API_Archivo\\Hikvision\\AddDevice.cs",
+              "RelativeToolTip": "Hikvision\\AddDevice.cs",
+              "ViewState": "AQIAAAMBAAAAAAAAAAAEwF4BAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T00:41:29.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "C:\\Users\\default.LAPTOP-SHPJT9PE\\Desktop\\Tesis-01NOV\\Backend-01NOV\\API_Archivo\\API_Archivo\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsuariosController.cs",
+              "ToolTip": "C:\\Users\\default.LAPTOP-SHPJT9PE\\Desktop\\Tesis-01NOV\\Backend-01NOV\\API_Archivo\\API_Archivo\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "Controllers\\UsuariosController.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAAOcBAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T18:13:57.246Z",
               "EditorCaption": ""
             }
           ]

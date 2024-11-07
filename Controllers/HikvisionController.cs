@@ -275,10 +275,14 @@ namespace API_Archivo.Controllers
         [Route("Abrir_puerta")]
 
 
-        public bool activar_puerta()
+        public bool activar_puerta(int id_fraccionamiento)
         {
-            bool puerta = AddDevice.btnOpen_Click();
+            bool login = AddDevice.Login(id_fraccionamiento);
+            bool puerta = false;
 
+           if (login){
+                 puerta = AddDevice.btnOpen_Click();
+            }
             return puerta;
 
         }

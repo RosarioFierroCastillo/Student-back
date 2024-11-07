@@ -201,11 +201,11 @@ namespace CardManagement
 
         public static bool InsertUser(string id_usuario, string nombre, string fechaActual, string fechaProximoPago)
         {
-            string szUrl = "/ISAPI/AccessControl/UserInfo/SetUp?format=json";
+            string szUrl = "/ISAPI/AccessControl/UserInfo/Record?format=json";
             string szRequest = "{\"UserInfo\":{\"employeeNo\":\"" + id_usuario +
             "\",\"name\":\"" + nombre +
             "\",\"userType\":\"normal\",\"Valid\":{\"enable\":true,\"beginTime\":\"" + fechaActual + "\",\"endTime\":\"" + fechaProximoPago + "\"},\"doorRight\": \"1\",\"RightPlan\":[{\"doorNo\":1,\"planTemplateNo\":\"1\"}]}}";
-            string szMethod = "PUT";
+            string szMethod = "POST";
 
             string szResponse = ActionISAPI(szUrl, szRequest, szMethod);
             bool res = false;

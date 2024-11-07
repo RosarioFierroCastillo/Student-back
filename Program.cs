@@ -110,7 +110,7 @@ var app = builder.Build();
 // Configure the HTTP request pipeline.
 
 
-/*
+
  if (app.Environment.IsProduction())
 {
     app.UseSwagger();
@@ -120,19 +120,19 @@ var app = builder.Build();
         c.RoutePrefix = string.Empty;
     });
 } 
- */
+ 
 
 
 
 
 
-
+ /*
 if (app.Environment.IsProduction())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
- 
+ */
 
 
 
