@@ -21,13 +21,14 @@ namespace API_Archivo.Controllers
             var token_generado = Guid.NewGuid().ToString();// Generar un token aleatorio utilizando Guid
 
             string idFraccionamiento = "";
+            string tipoUsuario = "";
             bool tokenAgregado = false;
 
             using (MySqlConnection conexion = new MySqlConnection(Global.cadena_conexion))
             {
                 int rowsaffected = 0;
                 MySqlCommand comando = new MySqlCommand("insert into tokens (token,idUsuario, estatus) VALUES (@token,@idUsuario, @estatus)", conexion);
-                MySqlCommand comando2 = new MySqlCommand("select id_fraccionamiento from personas where id_persona=@idUsuario", conexion);
+                MySqlCommand comando2 = new MySqlCommand("select id_fraccionamiento,tipo_usuario from personas where id_persona=@idUsuario", conexion);
 
                 comando.Parameters.Add("@idUsuario", MySqlDbType.Int32).Value = idUsuario;
                 comando2.Parameters.Add("@idUsuario", MySqlDbType.Int32).Value = idUsuario;
@@ -41,7 +42,14 @@ namespace API_Archivo.Controllers
                     if (reader.HasRows)
                     {
                         reader.Read();
-                        idFraccionamiento = reader.GetString(0);
+                        tipoUsuario += reader.GetString(1);
+                        if (tipoUsuario == "administrador")
+                        {
+                            idFraccionamiento = idUsuario.ToString();
+                        }else{ 
+                            idFraccionamiento = reader.GetString(0);
+                        }
+                        
                     }
 
 
